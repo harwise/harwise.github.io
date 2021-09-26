@@ -1,6 +1,34 @@
+/*
+-------------JS------------------*/
+.EN {
+   display: none;
+}
+
+/*
+--------------GLOBAL--------------*/
+ul {
+   line-height: 150%
+}
+
+/*
+--------------GLOBAL STYLE--------*/
 .fake-link {
    color: blue;
    text-decoration: underline;
    cursor: pointer;
 }
 
+.justify-right-container {
+   display: flex;
+   text-align: right;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+ul.no-bullets {
+   list-style-type: none; /* Remove bullets */
+   padding: 0; /* Remove padding */
+   margin: 0; /* Remove margins */
+ }
+
+ 
