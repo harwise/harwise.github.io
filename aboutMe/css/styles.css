@@ -10,6 +10,19 @@ ul {
    line-height: 150%
 }
 
+body {
+   max-width: 210mm;  /*A4*/
+   padding: 0 5mm;
+   margin: auto;
+}
+
+@media print {
+   .CONTROL {
+      display: none;
+   }
+}
+
+
 /*
 --------------GLOBAL STYLE--------*/
 .fake-link {
