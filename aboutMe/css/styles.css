@@ -6,7 +6,7 @@
 
 /*
 --------------GLOBAL--------------*/
-ul {
+ul, ol {
    line-height: 150%
 }
 
@@ -31,6 +31,13 @@ body {
    cursor: pointer;
 }
 
+.justify-left-container {
+   display: flex;
+   /* text-align: right;
+   justify-content: flex-end;
+   align-items: flex-end; */
+}
+
 .justify-right-container {
    display: flex;
    text-align: right;
@@ -44,4 +51,11 @@ ul.no-bullets {
    margin: 0; /* Remove margins */
  }
 
- 
+ /*
+--------------Work Experience--------*/
+.justify-center-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 20px 10px 0;
+}
