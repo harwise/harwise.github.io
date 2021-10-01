@@ -66,7 +66,7 @@
             <li>C & C++，跨平台</li>
             <li>COM，Windbg on Windows</li>
             <li>计算机图形，GPU编程，DirectX</li>
-            <li>Python，JS，Powershell</li>
+            <li>Python，JS，PowerShell</li>
             <li>Unreal Engine</li>
          </ul>
       </div>
@@ -76,7 +76,7 @@
             <li>C & C++, cross platform</li>
             <li>COM, Windbg on Windows</li>
             <li>Computer Graphics, GPU Programming, DirectX</li>
-            <li>Python, JS, Powershell</li>
+            <li>Python, JS, PowerShell</li>
             <li>Unreal Engine</li>
          </ul>
       </div>
@@ -209,10 +209,10 @@
       <h1 class="CN">项目经历</h1>
       <section class="PROJECT">
          <div class="CN">
-            <h3>Horizon远程桌面重定向功能</h3>
+            <h3>[VMWare] Horizon远程桌面重定向功能</h3>
             <h4>项目简介</h4>
             <p>VMWare Horizon远程桌面系统中，实现在Agent和Client之间，对设备，数据，或者用户操作进行重定向，让使用远程桌面更加方便。</p>
-            <h4>技能关键字</h4>
+            <h4>所需技能</h4>
             <p>C++, DirectShow, USB, HID, NBD, Scanner(TWAIN, ICA)</p>
             <h4>贡献</h4>
             <p>主导完成Windows Media Player重定向功能的开发：把Agent端WMP的视音频数据重定向到Client端解码和渲染。通过实现DirectShow的COM组件来接管视音频数据和播放控制指令。</p>
@@ -221,7 +221,7 @@
             <p>实现扫描仪的重定向：让Client端的扫描仪能够被Agent直接使用。依据TWAIN规范和MAC上ICA规范进行开发，在Agent端实现一个虚拟扫描仪。</p>
          </div>
          <div class="EN">
-            <h3>Horizon Remote Experience</h3>
+            <h3>[VMWare] Horizon Remote Experience</h3>
             <h4>Summary</h4>
             <p>For VMWare Horizon Remote Desktop, Specific devices, data and user actions are redirected between Agent and Client, providing seamless user experience。</p>
             <h4>Skills</h4>
@@ -236,11 +236,11 @@
 
       <section class="PROJECT">
          <div class="CN">
-            <h3>MKS跨进程通信模块</h3>
+            <h3>[VMWare] MKS跨进程通信模块</h3>
             <h4>项目简介</h4>
             <p>VMWare的所有桌面产品，UI进程都是单独于后台进程的，这就需要进程间通信。MKS指的是Mouse，Keyboard，和Screen。此模块被用于所有的桌面虚拟机产品和远程桌面产品，替换旧的IPC模块。</p>
-            <h4>技能关键字</h4>
-            <p>C++, IPC, Async Socket, Windows Named Pipe, Unix Domain Socket</p>
+            <h4>所需技能</h4>
+            <p>C++, IPC, libsigc++, Async Socket, Windows Named Pipe, Unix Domain Socket</p>
             <h4>贡献</h4>
             <p>借助公司的Async Socket库，在Windows上使用Named Pipe，在Linux/Mac上使用Domain Socket完成进程间通信通道的建立。</p>
             <p>和MKS组的同事一起重新设计所有的MKS消息。</p>
@@ -249,11 +249,11 @@
             <p>完成在后端进程对所有GHI消息的处理。</p>
          </div>
          <div class="EN">
-            <h3>MKS IPC Module</h3>
+            <h3>[VMWare] MKS IPC Module</h3>
             <h4>Summary</h4>
             <p>UI processes are separated from backend processes for all VMWare desktop products, which means IPC is required. MKS stands for Mouse, Keyboard, and Screen. This module is for all desktop products like Workstation and Horizon, replacing the old IPC.</p>
             <h4>Skills</h4>
-            <p>C++, IPC, Async Socket, Windows Named Pipe, Unix Domain Socket</p>
+            <p>C++, IPC, libsigc++, Async Socket, Windows Named Pipe, Unix Domain Socket</p>
             <h4>Contributions</h4>
             <p>Implemented the communication channel establishment based on the VMWare Async Socket lib. Named Pipe is used on Windows and Unix Domain Socket is used on Linux/Mac.</p>
             <p>Redefined all the MKS messages, collaborating with MKS team engineers.</p>
@@ -265,58 +265,90 @@
 
       <section class="PROJECT">
          <div class="CN">
-            <h3>Horizon RX 功能的组件测试自动化框架</h3>
+            <h3>[VMWare] Horizon RX 功能的自动化测试框架</h3>
             <h4>项目简介</h4>
-            <p>远程桌面。</p>
-            <h4>技能关键字</h4>
-            <p>C++, DirectShow, USB, Scanner, TWAIN</p>
+            <p>作为公司CI/CD计划的一部分，对RX，主要是各个重定向功能，设计和实现自动化测试框架。</p>
+            <h4>所需技能</h4>
+            <p>C++, SCons, PowerShell</p>
             <h4>贡献</h4>
-            <p>RX features.</p>
-            <p>Nested mode.</p>
-            <div class="DETAIL">
-               <h4>详细描述</h4>
-               <p>balaljfl;sajf;lasjdfk</p>
-            </div>
+            <p>为了能在测试时尽量不引入其它组件，负责设计和实现一个能够加载和运行RX插件的程序。</p>
+            <p>设计模块的分层结构，以便此框架能够灵活支持众多RX功能的不同需求。</p>
+            <p>协助其它同事完成部分RX功能的测试用例。</p>
+            <p>针对Nested Mode，设计和完成了一个E2E框架。它支持在多个Client和Agent上加载同一个测试脚本，但只运行需要的部分。这样，每一个Client/Agent的测试逻辑都可以放到一个测试脚本中管理。</p>
          </div>
          <div class="EN">
-            <h3>CI framework for Horizon RX component testing</h3>
+            <h3>[VMWare] Horizon RX CI Framework</h3>
+            <h4>Summary</h4>
+            <p>As a part of the company CI/CD movement, designed and implemented the CI framework for RX Redirection features.</p>
+            <h4>Skills</h4>
+            <p>C++, SCons, PowerShell</p>
+            <h4>Contributions</h4>
+            <p>For decoupling from other components, Designed and implemented a framework which can load and run RX plugins.</p>
+            <p>Designed a flexible layered structure of the framework, to meet different requirements of all kinds of RX plugins.</p>
+            <p>Helped colleagues implement some RX test cases.</p>
+            <p>Targeting Nested Mode testing, designed and finished an E2E framework. A test script file can be loaded on all sites but on a specific site only the corresponding part is run. In this way, logic on different sites can be managed in just one test script file.</p>
+         </div>
+      </section>
+      <div class="horizontal-line"></div>
+
+      <section class="PROJECT">
+         <div class="CN">
+            <h3>[搜狗] 一点浏览器</h3>
+            <h4>项目简介</h4>
+            <p>构建于IE内核之上的网页浏览器。</p>
+            <h4>所需技能</h4>
+            <p>C++, Windows COM, HTML, JS</p>
+            <h4>贡献</h4>
+            <p>IE内核相关的所有开发工作。</p>
+            <p>基于IE内核的网络层对网页分析和过滤。</p>
+         </div>
+         <div class="EN">
+            <h3>[Sogou] Yidian Web Browser</h3>
+            <h4>Summary</h4>
+            <p>As a part of the company CI/CD movement, designed and implemented the CI framework for RX Redirection features.</p>
+            <h4>Skills</h4>
+            <p>C++, SCons, PowerShell</p>
+            <h4>Contributions</h4>
+            <p>Responsible for developing all IE core related features.</p>
+            <p>Implemented parsing and filtering web pages, developing on the IE network layer.</p>
          </div>
       </section>
 
-         </p>
-         <p>
-            2015-2016
-            Sogou		Yidian Web Browser
-             http://www.yidianliulan.com/
-            Lightweight web browser, will be open source in several months.
-            My Contributions: Implementing the web browser core module. Resolving the problem of lacking low level http net layer.
-         </p>
-         <p>
-            DETAIL: 
-            内核相关的所有开发工作； 
-            攻克没有独立网络层的难题；基于IE内核的网络层进行开发。 
-   
-            项目描述 
-   
-            使用IE内核的轻量级浏览器。 
-            
-            开发平台 
-            
-            Windows平台；C++/ VS；COM； 
-            
-            项目技术 
-            
-            新产品单核浏览器轻量快速； 
-            
-            项目职责 
-            
-            内核相关的所有开发工作； 
-            
-            突出贡献 
-            
-            攻克没有独立网络层的难题；基于IE内核的网络层进行开发。 
-            
-           
+      <section class="PROJECT">
+         <div class="CN">
+            <h3>[搜狗] 搜狗浏览器</h3>
+            <h4>项目简介</h4>
+            <p>可以在IE内核和Chromium内核之间自由切换的网页浏览器。</p>
+            <h4>所需技能</h4>
+            <p>C++, Windows COM, WinBbg, HTML, JS</p>
+            <h4>贡献</h4>
+            <p>IE内核相关的部分开发工作，通过反汇编和WinDbg调试来解决IE内核相关的一些技术难题。</p>
+            <p>独立实现了IE内核下的网页静音功能。</p>
+            <p>独立实现了IE内核下的视频窗口 (Flash) 浮动功能。</p>
+            <p>攻克了开启GPU加速下的网页截屏难题。</p>
+            <p>基于双内核的公共网络层对网页分析和过滤。</p>
+            <p>参与Chromium插件的开发工作，负责native代码部分。</p>
+            <p>负责搜狗浏览器安装卸载程序的全部开发工作。</p>
+         </div>
+         <div class="EN">
+            <h3>[Sogou] Sogou Web Browser</h3>
+            <h4>Summary</h4>
+            <p>Sogou Web Browser provides seamless experience between IE and Chromium core.</p>
+            <h4>Skills</h4>
+            <p>C++, Windows COM, WinBbg, HTML, JS</p>
+            <h4>Contributions</h4>
+            <p>Development on IE core related features. Solved some key technical problems with Disassembling and WinDbg.</p>
+            <p>Implemented the Mute Site feature for the IE core.</p>
+            <p>Implemented the Pop-up Flash Video Window feature for the IE core.</p>
+            <p>Solved the difficulty of capturing screenshots of GPU-accelerated web pages.</p>
+            <p>Implemented parsing and filtering web pages, developing on the common network layer of both cores.</p>
+            <p>Worked on Chromium plugins, responsible for the native code part.</p>
+            <p>Responsible for developing the installer and uninstaller programs.</p>
+         </div>
+      </section>
+      <div class="horizontal-line"></div>
+
+      
          </p>
          <p>
             2011-2016
