@@ -7,4 +7,7 @@ plugins:
 collections:
   programming:
     output: true
-    layout: default
+  fantasy:
+    output: true
+
+
