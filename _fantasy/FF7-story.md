@@ -5,7 +5,7 @@ title: FF7 Story
 
 [The source](https://www.youtube.com/watch?v=_A1svJNN_9g)
 
-After going through Final Fantasy 7 Remake on PS4, I was obsessed to learn the whole story.
+After having finished "Final Fantasy 7 Remake" on PS4, I was intrigued to know the whole story.
 
 # Cloud Strife
 
@@ -20,6 +20,22 @@ Cloud set off to the Shinra capital of Midgar to fulfill his dreams and become t
 During his career as a Shinra militant, Could found a **kindred** spirit and **role model** in a SOLDIER named Zack Fair. The two became fast friends, but everything would change when they set off on a seemingly routine mission back to Cloud's hometown of Nibelheim.
 
 # Nibelheim
+
+* Small mountain community
+* Hometown of Tifa and Cloud
+
+Nibelheim is a sleepy little town at the base of Mt. Nibel, home to one of Shinra's Mako Reactor energy plants. When Cloud, Sephiroth, and Zack arrived to investigate a **malfunction** at the reactor, an embarrassed Cloud kept his helmet on the whole time to avoid having to talk to any of his old neighbors. To make things more awkward, Tifa was working as the mountain guide at the time. So, she was hired to lead the team to the reactor. At least she didn't recognized Cloud.
+
+The mission took a strange turn when the team discovered the cause of the malfunction: an **infestation** of **mutated** monsters. You see, Nibelheim isn't just a popular tourist destination, it's also home to a secret Shinra laboratory hidden in the basement of a nearby **manor**. Perplexed by the **mutants** in the reactor, Sephiroth investigated the Shinra manor, where he discovered a secret that drove him insane. From there, Sephiroth went on a **rampage**, razing the village to the ground, killing many of its inhabitants, and kidnapping Tifa.
+
+Cloud chased Sephiroth up the mountain to the reactor, where he found Tifa and Zack injured by Sephiroth. Cloud fought Sephiroth, but he stood no chance and Sephiroth promptly stabbed him with his nine-foot-long sword. No surprise there. However, with his **last ounce of strength**, Cloud **hoisted** Sephiroth up by the blade of his sword and **hurled** him into the reactor before passing out.
+
+Shinra **operatives** found unconscious Zack and Cloud near the reactor and moved them to the laboratory in Shinra Manor. There, they performed **inhumane experiments** on the two of them using Mako energy. Since he was a soldier, Zack was able to **withstand** it, but the **overexposure** to Mako left Cloud **physically and psychologically fractured**. After years in the lab, Zack was able to break him and his **catatonic** buddy out and make their way towards the Midgar.
+
+They planned to work as mercenaries once Cloud had fully recovered, but a team of Shinra operatives attacked them once they reached the outskirts of Midgar. With his dying breath, Zack bequeathed his Buster Sword to Cloud, and told him to work in Midgar without him.
+
+# Midgar
+
 
 
 
