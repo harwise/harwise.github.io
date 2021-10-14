@@ -9,5 +9,8 @@ collections:
     output: true
   fantasy:
     output: true
+  algorithm:
+    output: true
+  
 
 
