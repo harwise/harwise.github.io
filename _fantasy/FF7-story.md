@@ -36,6 +36,14 @@ They planned to work as mercenaries once Cloud had fully recovered, but a team o
 
 # Midgar
 
+* Shinra capital
+* Home of Avalanche and Aerith
+
+As a sprawling industrial **metropolis**, Midgar is the base of operations for the Shinra empire. The whole city is powered by six huge Mako reactors, and it's structured made of a series of tiered plates stacked on top of each other. It's like a **dystopian** wedding cake. The wealthy live in comfort on the upper level where Shinra Headquarter is located. Everyone else is left to **fend for** themselves in the slums below. The lower levels are mostly run by criminal organizations and gangsters like Con Corneo. He keeps Shinra from interfering in his business by keeping them informed on any **ongoing** terrorist activities in the lower sectors.
+
+Once Cloud got into Midgar, he stumbled around the city for a while, living on the streets while **mumbling** **incoherently** to himself. Luckily, Tifa was also living in Midgar. When she found Cloud, she invited him to work with her in a anti-Shinra **resistance group**, Avalanche.
+
+# Tifa Lockhart
 
 
 
