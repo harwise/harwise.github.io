@@ -55,5 +55,5 @@ When she finds Cloud, a wave of memories comes rushing back to him about their c
 
 As a member of Avalanche, Tifa bears many responsibilities for the group. She runs a bar Seventh Heaven as the team's headquarters. But Tifa also puts her expert hand-to-hand combat skill to work on missions.
 
-After Cloud's first job with Avalanche is a success, she manages to convince him to stay with the group for a second mission. Cloud agrees to help fight for her course despite his disagreement with Avalanche's **fiery** leader, Barret.
+After Cloud's first job with Avalanche is a success, she manages to convince him to stay with the group for a second mission. Cloud agrees to help fight **for her cause** despite his disagreement with Avalanche's **fiery** leader, Barret.
 
