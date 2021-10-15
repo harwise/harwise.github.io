@@ -5,7 +5,7 @@ title: FF7 Story
 
 [The source](https://www.youtube.com/watch?v=_A1svJNN_9g)
 
-After having finished "Final Fantasy 7 Remake" on PS4, I was intrigued to know the whole story.
+After having finished "Final Fantasy 7 Remake" on PS4, I was intrigued to learn the whole story.
 
 # Cloud Strife
 
@@ -13,7 +13,7 @@ After having finished "Final Fantasy 7 Remake" on PS4, I was intrigued to know t
 * **Proclaimed** ex-solider
 * **Fledgling** terrorist
 
-Cloud Strife is the classic kind of spiky-haired ball of **angst** that you'll find in any final fantasy. Cloud grew up as a loner in the sleepy mountain town of Nibelheim. He heard tales of the hero Sephiroth and his elite group of warriors known as SOLDIERS. So, Cloud decided to enlist in the private military of the energy **conglomerate** Shinra in hopes of joining SOLDIERS himself. He wanted to be like Sephiroth, and want to impress the girl-next-door, Tifa Lockhart.
+Cloud Strife is the classic kind of spiky-haired ball of **angst** that you'll find in any final fantasy. Cloud grew up as a **loner** in the sleepy mountain town of Nibelheim. He heard tales of the hero Sephiroth and his elite group of warriors known as SOLDIERS. So, Cloud decided to enlist in the private military of the energy **conglomerate** Shinra in hopes of joining SOLDIERS himself. He wanted to be like Sephiroth, and want to impress the girl-next-door, Tifa Lockhart.
 
 Cloud set off to the Shinra capital of Midgar to fulfill his dreams and become the bad ass that we know and love today, except he didn't. Cloud didn't qualify for the SOLDIER program, so he got placed into Shinra's ranks as a **lowly** **grunt**. Embarrassed and depressed by his failure, Cloud cut off all contact with his folks back home.
 
@@ -30,7 +30,7 @@ The mission took a strange turn when the team discovered the cause of the malfun
 
 Cloud chased Sephiroth up the mountain to the reactor, where he found Tifa and Zack injured by Sephiroth. Cloud fought Sephiroth, but he stood no chance and Sephiroth promptly stabbed him with his nine-foot-long sword. No surprise there. However, with his **last ounce of strength**, Cloud **hoisted** Sephiroth up by the blade of his sword and **hurled** him into the reactor before passing out.
 
-Shinra **operatives** found unconscious Zack and Cloud near the reactor and moved them to the laboratory in Shinra Manor. There, they performed **inhumane experiments** on the two of them using Mako energy. Since he was a soldier, Zack was able to **withstand** it, but the **overexposure** to Mako left Cloud **physically and psychologically fractured**. After years in the lab, Zack was able to break him and his **catatonic** buddy out and make their way towards the Midgar.
+Shinra **operatives** found unconscious Zack and Cloud near the reactor and moved them to the laboratory in Shinra Manor. There, they performed **inhumane experiments** on the two of them using Mako energy. Since he was a SOLDIER, Zack was able to **withstand** it, but the **overexposure** to Mako left Cloud **physically and psychologically fractured**. After years in the lab, Zack was able to break him and his **catatonic** buddy out and make their way towards the Midgar.
 
 They planned to work as mercenaries once Cloud had fully recovered, but a team of Shinra operatives attacked them once they reached the outskirts of Midgar. With his dying breath, Zack bequeathed his Buster Sword to Cloud, and told him to work in Midgar without him.
 
@@ -45,5 +45,15 @@ Once Cloud got into Midgar, he stumbled around the city for a while, living on t
 
 # Tifa Lockhart
 
+* Master of hand-to-hand combat
+* Second-in-command of Avalanche
+* Cloud's childhood neighbor
 
+Last time we saw Tifa, Sephiroth left her heavily injured. Her martial arts instructor, Zangan, found her and took her to Midgar to get medical attention. After recovering, Tifa remained in Midgar and **joined up with** Barret Wallace, the leader of Avalanche.
+
+When she finds Cloud, a wave of memories comes rushing back to him about their childhood friendship, but that never happened. Tifa and Cloud were never that close growing up. So, she started worrying about Cloud's mental state. As a way of keeping an eye on him, she did what any concerned friend would do: hired him as a mercenary for her terrorist group, duh.
+
+As a member of Avalanche, Tifa bears many responsibilities for the group. She runs a bar Seventh Heaven as the team's headquarters. But Tifa also puts her expert hand-to-hand combat skill to work on missions.
+
+After Cloud's first job with Avalanche is a success, she manages to convince him to stay with the group for a second mission. Cloud agrees to help fight for her course despite his disagreement with Avalanche's **fiery** leader, Barret.
 
