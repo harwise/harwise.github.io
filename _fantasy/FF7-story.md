@@ -57,3 +57,16 @@ As a member of Avalanche, Tifa bears many responsibilities for the group. She ru
 
 After Cloud's first job with Avalanche is a success, she manages to convince him to stay with the group for a second mission. Cloud agrees to help fight **for her cause** despite his disagreement with Avalanche's **fiery** leader, Barret.
 
+# Barret Wallace
+
+* Leader of Avalanche
+* Has a gun arm
+
+Barret was once a simple married man living in a small mining town of Corel. When his wife, Myrna fell ill, he convinced the people of Corel to allow Shinra to build a Mako reactor near the community. He hoped that the corporate partnership can provide the resources needed to treat his wife. Barret's friend Dyne opposed the idea at first, but he **backed down** out of **respect for** Barret's reasoning.
+
+Not long after the Corel reactor was built, Avalanche hijacked the facility. No, not Barret's Avalanche, but an earlier, more violent **incarnation** of the group. Barret and Dyne fought to help Shinra retake the reactor, but Shinra figured the people of Corel was responsible for this incident. So, they blew up the Mako plant and attacked the village **in retaliation** Barret and Dyne hurried back to save their town, but Shinra forces ambushed them, leaving the two in a literal **cliffhanger**. Barret saved Dyne from falling by grabbing his hand, but Scarlet, a Shinra's execute, shot both men's hands clean off, sending Dyne **tumbling** into the **abyss**. Despite the odds, Barret managed to escape with Dyne's daughter, Marlene, adopting her as his own.
+
+He set off for Midgar, replaced his lost hand with a sweet machine gun, and formed his own version of Avalanche fo fight again Shinra. Sure, he wants to protect the planet from Shinra's environmentally harmful Mako harvesting, But **he's also out to** **avenge** his home, his wife and his best friend, and his arm.
+
+# Avalanche
+
