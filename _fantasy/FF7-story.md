@@ -70,3 +70,10 @@ He set off for Midgar, replaced his lost hand with a sweet machine gun, and form
 
 # Avalanche
 
+* Underground eco-terrorist group
+* Led by Barret Wallace
+
+Barret's cell of Avalanche is relatively separate from the more **militaristic** official faction of Avalanche referred to as Avalanche HQ. While Barret's team **disapproves of** Avalanche HQ's more violent methods, HQ isn't a fan of Barret's **chaotic** approach. Nonetheless, the two Avalanche groups in Midgar tend to stay out of each other's business. Biggs, Wedge, and Jessie Rasberry joined Barret's group, eager to fight against Shinra.
+
+Jessie grew up in Sector 7's residential district. She dreamed of performing at the Gold **Saucer**. She'd just **landed the starring role** when her father got sicked with Mako poisoning from the Shinra plant where he worked. Jessie blamed Shinra for what happened, and **unbeknownst** to her family, joined up with Avalanche to **get revenge**. A skilled **tinkerer**, Jessie is responsible for crafting the bombs Avalanche uses in their attacks. She also has a bit of a crush on Cloud, and **flirts with** him nonstop despite getting rejected. Apparently, Avalanche doesn't have a **workplace harassment** **seminar**.
+
