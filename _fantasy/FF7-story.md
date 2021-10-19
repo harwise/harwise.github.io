@@ -77,3 +77,12 @@ Barret's cell of Avalanche is relatively separate from the more **militaristic**
 
 Jessie grew up in Sector 7's residential district. She dreamed of performing at the Gold **Saucer**. She'd just **landed the starring role** when her father got sicked with Mako poisoning from the Shinra plant where he worked. Jessie blamed Shinra for what happened, and **unbeknownst** to her family, joined up with Avalanche to **get revenge**. A skilled **tinkerer**, Jessie is responsible for crafting the bombs Avalanche uses in their attacks. She also has a bit of a crush on Cloud, and **flirts with** him nonstop despite getting rejected. Apparently, Avalanche doesn't have a **workplace harassment** **seminar**.
 
+Biggs grew up as an orphan in the Sector 5 Slums. He became a teacher at his local orphanage where he served as a **role model** to many of the children. He eventually left the orphanage to fight for Avalanche, where he distinguishes himself both as a fighter and a **tactician**. He stills holds the children of his orphanage close to his heart and fights to give them a better future.
+
+Wedge's passion for saving the planet is matched only by his love of food and his cats. An orphan like Biggs, Wedge sees himself as the weak link in the group. He often has doubts about his true **potential** as a **revolutionary**, maybe because he's constantly getting injured on missions. Even so, he probably doesn't realize how much he truly **contributes to** Avalanche's fight again Shinra.
+
+# Shinra Electrical Power Company
+
+
+
+ 
