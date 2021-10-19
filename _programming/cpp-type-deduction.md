@@ -36,6 +36,7 @@ The type deduced for T is dependent not just on the type of *expr*, but also on 
 
 以上是先从`ParamType`的角度看，分为了三类；如果先从`expr`的角度看，规则看起来更清楚：
 * `expr`'s reference-ness is ignored.
+* `expr`'s cv is ignored if ParamType is not a pointer/reference.
 * When deducing types for universal reference parameters, lvalue arguments get special treatment.
 
 ## Array Arguments
