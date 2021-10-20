@@ -4,7 +4,6 @@ title: C++ decltype
 ---
 
 *Effective Modern C++ Chapter 1*
-# decltype
 
 *In C++11, perhaps the primary use for `decltype` is declaring function templates where the function's return type depends on its parameter types.*
 
