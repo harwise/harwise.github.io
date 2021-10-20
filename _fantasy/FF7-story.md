@@ -83,6 +83,19 @@ Wedge's passion for saving the planet is matched only by his love of food and hi
 
 # Shinra Electrical Power Company
 
+* **Ruthless** mega-corporation
+* Lead by President Shinra and his son Rufus
+* Creators of the Jenova project.
+
+Like any major **conglomerate**, the Shinra corporation is after money and power. Shinra rules much of the known world thanks to their main source of income: Mako energy. Mako energy is refined by drilling into the planet's core and harvesting the planet's Lifestream, the magical essence responsible for all of the life in the world. As you could imagine, this has some damaging effects on the environment. But hey, if it doesn't affect the bottom line, Shinra doesn't really care. So Shinra **makes serious bank off** of destroying the planet. But they've also got a **monopoly** on pretty much every other **unscrupulous** industry you can think of. They've even got their own private military **at their beck and call**, so Shinra is virtually unstoppable. With their weapons and science divisions, they can **invest in** cartoonishly evil ideas like the Jenova project. We'll get to that later.
+
+Avalanche is the greatest thorn in Shinra's side, and their **guerilla tactics** always keep them one step ahead of the mega-corporation. Still, Shinra will stop at nothing to crush any form of **resistance**.
+
+# Aerith Gainsborough
+
+
+
+
 
 
  
