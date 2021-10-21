@@ -4,8 +4,8 @@ title: C++ Terminology
 ---
 
 * Statement
-  * Declaration
-  * Definition
+   * Declaration
+   * Definition
 * Expression
 
 * Function Signature
@@ -14,8 +14,8 @@ title: C++ Terminology
 * Parameter
 
 * Exception safe
-  * basic guarantee
-  * strong guarantee
+   * basic guarantee
+   * strong guarantee
 
 * Function Object
 * Callable Object
@@ -27,4 +27,7 @@ title: C++ Terminology
 * Default initialization
 * Default constructors
 
+* Uniform initialization (Braced initialization)
 
+* Most vexing parse
+   * `Widget w2();    // declares a function?`
