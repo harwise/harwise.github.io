@@ -97,9 +97,11 @@ template<typename T>
 void f(ParamType param);
 f(arguments)
 ```
+
 * T -> auto
 * ParamType -> type specifier
 * argument -> rhs expression
+
 ```
 auto x = 27;
 const auto cx = x;
@@ -117,11 +119,14 @@ template <typename T>
 void func_for_rx(const T& param);
 func_for_rx(x);
 ```
+
 But only with one **exception**:
+
 ```
 auto x3 = { 27 };
 auto x4{ 27 };
 ```
+
 The deduced type (i.e. `T` or `auto`) is `std::initializer_list<int>`.
 
 `auto` assumes that a braced initializer represents a `std::initializer_list`, but template type deduction doesn't.
@@ -138,6 +143,7 @@ f({ 11, 23, 9})      // T deduced as in
 ```
 
 But, `auto` return and `auto` parameter type employ *template type deduction*.
+
 ```
 auto createInitList()
 {
