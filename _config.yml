@@ -11,6 +11,8 @@ collections:
     output: true
   algorithm:
     output: true
-  
+  electronics_foundations:
+    output: true
+
 
 
