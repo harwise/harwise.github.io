@@ -93,6 +93,17 @@ Avalanche is the greatest thorn in Shinra's side, and their **guerilla tactics**
 
 # Aerith Gainsborough
 
+* Local flower seller
+* Last of the Cetra
+
+Aerith is a **plucky** young girl who sells flowers in the lower levels of Midgar. Cloud first encounters Aerith after **sabotaging** the Sector 1 Mako reactor. But they make proper introductions after Cloud takes a tumble into the Sector 5 slums. Aerith discovers him just in time: she's being hunted by the Turks, Shinra's **elite** investigating team. she **strikes a deal** with Cloud for him to act as her bodyguard, **in exchange for** a date with her. Though the **perpetually** awkward Cloud tries to **ditch** her after they get to safety, she continues to stick to him like glue.
+
+Despite her **cheery demeanor**, Aerith has a heartbreaking past. Her mother was the last of an ancient race of magic-users called the Cetra, and her father was a former Shinra scientist, who helped her escape from Shinra's head researcher, Dr. Hojo. The two went into hiding, and soon gave birth to Aerith. But after the Turks found them, Dr. Hojo killed Aerith's father and started experimenting on Aerith and her mother. Seven years later, Aerith's mother managed to escape Shinra's headquarters with Aerith, but was **mortally** wounded in the process. With dying breath, Aerith's mother asked a woman named Elmyra Gainsborough to watch over Aerith. So Elmyra raised Aerith as her own and **hid her from the Turks**. As Aerith grew, she began to deny her heritage, but deep down, she knew the truth about herself and the Cetra.
+
+In the Remake, Aerith is haunted by swarms of mysterious **Spectres**. At first, she's the only one who's able to see the ghosts, but when she touches Cloud for the first time, he's able to see them as well. The Whispers **harassed** both heroes throughout the story. Sometimes they appear to attack Aerith and Cloud, while other times they seem to be helping them. Mostly, they seem **concerned with** keeping Aerith and Cloud on the right track. No one knows the true connections between Aerith and these spirits. Are they related to the connection to the Lifestream, or her Cetra blood? Only time will tell.
+
+# The Cetra
+
 
 
 
