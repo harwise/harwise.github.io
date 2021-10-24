@@ -104,8 +104,16 @@ In the Remake, Aerith is haunted by swarms of mysterious **Spectres**. At first,
 
 # The Cetra
 
+* Ancient race of **mystic** **nomads**
+* The **caretakers** of the planet
 
+The Cetra were an ancient race that **inhabited** Earth thousands of years ago. They had a unique ability to communicate with the planet thanks to their ancient wisdom about the Lifestream. The Cetra believed that if they wandered the planet, **nurturing** and cultivating it, the journey would one day lead them to the Promised Land, a **mythical** land of near infinite Mako energy.
 
+Some Cetra strayed from their **nomadic** ways, and settled down, starting their own civilizations. The descendent of these Cetra would become the humans of present day. And then something really interesting happened: an **alien** showed up and killed then all. Well, almost all of them. The survivors **banded together** to use their magic to seal the alien away, trapping it in the **crater** where it was originally landed. 2,000 years later, Shinra would take a deep interest in the Cetra. Well, they were more interested in the vast energy of the Promised Land.
+
+**Okie Dokie.** So, the Remake only covers the stuff that happens in Midgar. In other words, we'ar starting to get into uncharted territory. Sure, we've met Red XIII in the Remake, but we haven't really got the chance to know him yet. So **from here on in**, we're gonna go by info from the original Final Fantasy 7.
+ 
+# Red XIII
 
 
 
