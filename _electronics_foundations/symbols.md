@@ -9,19 +9,43 @@ title: Symbols
 
 $G$ (giga) $M$ (mega) $k$ (kilo) $1$ $m$ (milli) $\mu$ (micro) $n$ (nano) $p$ (pico)
 
+# Energy
 
+Voltage  - Potential energy. Pressure.\
+Current  - Kinetic energy. Flow.
 
-
-
-
-$$
-A = \frac{\pi r^2}{2}
-  = \frac{1}{2} \pi r^2
-$$
+Joule ($J$) - How much energy is transferred.\
+Watt ($W$)  - Electric Power. The rate at which energy is transferred or transformed.
 
 $$
-e = mc^2
+1W = 1J \space per \space second
 $$
+$$
+P = I \times V
+$$
+
+|Situation|Approximate Power|
+|:-:|:-:|
+|Arduino Uno Micro-controller|0.25$W$|
+|Cell Phone Transmitter|3$W$|
+|Laptop Computer|65$W$|
+|50-Inch LCD Television|150$W$|
+|Microwave Oven|1000$W$|
+
+# Battery
+
+Nominal Voltage   - Output voltage after 50% discharge\
+Capacity ($Ah$)   - Amp-hours. Amount of electrons. One amp of current for one hour at its rated voltage.
+
+# Grounded vs. floating
+
+GND (ground) - wall power outlets.\
+COM (**own** common point) - batteries.
+
+
+
+
+
 
 
 This is a demo of all styled elements in Jekyll Now. 
