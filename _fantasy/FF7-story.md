@@ -115,6 +115,14 @@ Some Cetra strayed from their **nomadic** ways, and settled down, starting their
  
 # Red XIII
 
+* Real name: Nanaki
+* **Guardian** of Cosmo Canyon
 
+When Cloud and the gang attack Shinra's HQ to rescue Aerith, they find her locked in a cage with a fearsome lion-like creature. Bad news, right? Wrong! He's actually a **chill** guy named Nanaki. He's a member of a rare unnamed species of, essentially, talking cats. His family had long served as the protectors of Cosmo Canyon, **a natural wonder** inhabited by a tribe lead by the wise elder Bugenhagen.
 
- 
+When Nanaki was just a cub, his father disappeared. **A rival tribe** called the Gi was about to invade, so Red XIII figured his dad **bailed** to save himself. Soon after, his mother **passed away**, so Bugenhagen raised Nanaki himself as his grandfather. Even though Nanaki's 48, he's basically a teenager in his species' lifespan.
+
+Nanaki set out for a **ritual** his species performs every 50 years to **appease** the planet. But before he could return home, the Turks kidnapped him and sent him off to Dr. Hojo's for his twisted experiments. **Dubbed** Red XIII by the Shinra researchers, Nanaki is **branded**, scarred, and **genetically** modified by Dr. Hojo. But his real power remains intact. After Cloud frees him, he helps the group escape from Midgar and leads them to his his **ancestral** home: Cosmo Canyon. 
+
+# Cosmo Canyon
+
