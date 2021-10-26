@@ -20,6 +20,7 @@ Watt ($W$)  - Electric Power. The rate at which energy is transferred or transfo
 $$
 1W = 1J \space per \space second
 $$
+
 $$
 P = I \times V
 $$
