@@ -126,3 +126,14 @@ Nanaki set out for a **ritual** his species performs every 50 years to **appease
 
 # Cosmo Canyon
 
+* Home of Red XIII and Bugenhagen
+* Natural **pilgrimage** site
+
+Cosmo Canyon is a spiritual and natural **mecca** for many travelers. The community's wisest elder Bugenhagen, is a **devout** scholar of both nature and technology, and shares his **trove** of wisdom with Cloud and his team when they visit his **observatory**. Cosmo Canyon is also where the first version of Avalanche was founded several years earlier.
+
+The people of Cosmo Canyon were historically **at odds** with the **warmongering** Gi Tribe, who tried to invade the town through the nearby caves. While Red XIII believed his father had fled the **impending** invasion, Bugenhagen unlocks the caves for Red XIII to show him the truth. His father had actually sacrificed himself in order to defeat the Gi, saving his son and the rest of Cosmo Canyon. Nanaki finally forgives his father, and the party continues their adventure.
+
+# Gold Saucer
+
+
+
