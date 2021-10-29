@@ -135,5 +135,15 @@ The people of Cosmo Canyon were historically **at odds** with the **warmongering
 
 # Gold Saucer
 
+* Massive amusement park
+* Built on the ruins of old Corel
+
+With all the emotional and tragic backstories unfolding, the **gang** needs ome **R&R**. So they stopped at the Gold Saucer: a sprawling, **gilded** metropolis of fun and excitement. The Gold Saucer is divided into 7 squares: Round, Speed, Event, Ghost, Chocobo, Battle and Wonder. Each square has its own share of games and **attractions** to take part in. During their stay, Cloud even has his option to **go on a date** and **see the sights** with one of the female members of the party, or Barret if you're lucky.
+
+But The Gold Saucer isn't all fun and games; the entire park is built on top of, you guessed it, another emotional and tragic backstory. I love Final Fantasy. We love it. Apparently, someone thought it would be a cute idea to build an amusement park right above Corel, Barret's old hometown. It turns out, Barret's old pal Dyne is still alive, has a gun-hand just like his, and has just been going on **murderous rampages** throughout The Gold Saucer. Pretty horrible, but, not as horrible as the other guy the gang meets here.
+
+# Cait Sith
+
+
 
 
