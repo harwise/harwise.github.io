@@ -41,3 +41,5 @@ title: C++ Terminology
    * `typename MyAllocList<T>::type list; // The keyword **typename** is required`
    * With alias templates, `typename std::remove_const<T>::type` is simplified as `std::remove_const_t<T>`.
 
+* Underlying Type
+
