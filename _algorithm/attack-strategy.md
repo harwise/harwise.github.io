@@ -18,6 +18,11 @@ title: Problem Solving Strategies
 * 如果用brute force，它的复杂度是多少？这样就得知了解决这个问题的复杂度上限；
 * 对一个解空间进行分析，想办法把最终目标从这个空间中找出来。
 
+空间变换。把解空间变换一下，可能会降低复杂度，或降低维度。
+* Convex Hull Optimization. 把原来解空间中的解视为一个点，在一条直线上的所有点就可以作为一条线段来处理。于是把点空间转换为线段空间。对于Convex Hull Optimization来说，在两条线段的交点之前$A>B$，交点之后$A<B$, 这样的话，线段的一半（对应于点空间中的很多点）就能够被整体剔除了。
+* 圆和直线间的变换。In geometry, inversive geometry is the study of inversion, a transformation of the Euclidean plane that maps circles or lines to other circles or lines and that preserves the angles between crossing curves. Many difficult problems in geometry become much more tractable when an inversion is applied. <https://en.wikipedia.org/wiki/Inversive_geometry>
+
+
 # Break Down
 
 从一个解空间中，寻找最终目标，这一步才是解题的关键。所以需要对解空间进行分析。
