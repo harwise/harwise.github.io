@@ -3,6 +3,8 @@ layout: default
 title: Problem Solving Strategies
 ---
 
+{% include katex.html %}
+
 哪些问题能够用greedy解决，能用greedy解决的原因是什么？实际上这是一个证明的问题。看过<https://www.youtube.com/watch?v=Oq1seKJvfQU>之后，再加上最近看了一些数学的东西，感觉是时候要总结一下了。不只是局限于对greedy的总计，而是总结如何解题，从一般性的角度出发。
 
 # Solution Space
