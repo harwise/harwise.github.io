@@ -144,6 +144,19 @@ But The Gold Saucer isn't all fun and games; the entire park is built on top of,
 
 # Cait Sith
 
+* **Surreptitious** fortune teller
+* Secret Shinra agent
+
+We just get a glimpse of Cait Sith in the Remake, but we can learn more about his **lore** from the original. Cait Sith is a, he's sort of like a cat? And he's got a **megaphone**, and like, a little crown, and a **cape**. And he's riding the giant, um, **marshmallow**-demon-thing?
+
+Anyway, Cloud runs into him in Wonder square in The Gold Saucer, and he just offers to tell Cloud's fortune. Cloud's like, okay, fine. So, after Cait Sith's done, he's like, hey, I'm gonna **stick around with** the crew from now on actually. And instead of telling him to get lost, Cloud's just like, sure, whatever. Big mistake, because it turns out that Cait Sith is actually a **drone** that Shinra deployed to spy on Cloud and his friends. Okay, if Shinra was gonna make a robot designed to spy on people, why would they make it so annoying? Why would they make it so bad at combat? Why would they make it look like this?
+
+Well, Cait Sith is actually **piloted** by Reeve Tuesti, Shinra's head of Urban Development. Anyway, Cait Sith betrays Cloud and the team, kidnapping Marlene and delivering the invaluable Keystone to the Turks. But he's inspired by the gang's devotion to saving the planet and quickly **has a change of heart**. He ends up sacrificing himself to obtain the Black Materia for the rest of the party. It's an emotionally **devastating** loss, or, it would be if he wasn't just a robot. Because a replacement Cait Sith shows up immediately afterwards to rejoin the party.
+
+Oh, and in battle, Cait Sith has a move that can either kill every enemy in on hit, or, kill everyone in your party in one hit. You will never use him.
+
+# Yuffie Kisaragi
+
 
 
 
