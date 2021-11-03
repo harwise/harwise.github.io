@@ -43,3 +43,26 @@ title: C++ Terminology
 
 * Underlying Type
 
+* Overload
+* Override
+
+* Reference Qualifiers
+
+```
+class Widget {
+   public:
+      using DataType = std::vector<double>;
+      DataType& data() &
+      { return values; }
+      DataType data() &&
+      { return std::move(values); }
+   private:
+      DataType values;
+}
+```
+
+* Contextual Keywords
+   * They are reversed only in certain contexts.
+   * `override`
+   * `final`
+
