@@ -47,22 +47,31 @@ title: C++ Terminology
 * Override
 
 * Reference Qualifiers
-
-```
-class Widget {
-   public:
-      using DataType = std::vector<double>;
-      DataType& data() &
-      { return values; }
-      DataType data() &&
-      { return std::move(values); }
-   private:
-      DataType values;
-}
-```
+   ```
+   class Widget {
+      public:
+         using DataType = std::vector<double>;
+         DataType& data() &
+         { return values; }
+         DataType data() &&
+         { return std::move(values); }
+      private:
+         DataType values;
+   }
+   ```
 
 * Contextual Keywords
    * They are reversed only in certain contexts.
    * `override`
    * `final`
+
+* Call Stack Unwinding
+
+* Functions with Wide Contracts
+   * Has no preconditions.
+   * Can be called regardless of the state of the program.
+   * Imposes no constrains on the arguments the callers pass it.
+* Functions Narrow Contracts
+   * If a precondition is violated, results are undefined.
+
 
