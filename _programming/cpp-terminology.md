@@ -74,4 +74,7 @@ title: C++ Terminology
 * Functions Narrow Contracts
    * If a precondition is violated, results are undefined.
 
-
+* Literal Types
+   * Types that can have values determined during compilation.
+      * All built-in types except `void` qualify.
+      * User-defined types may be literal, too, because ctors and other member functions may be `constexpr`.
