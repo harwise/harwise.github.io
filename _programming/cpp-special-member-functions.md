@@ -33,7 +33,7 @@ copy
 * Declaring a move operation disables compilers to generate copy operations.
 * If the ctor is declared, copy operations should not be generated. But in practice, may or may not.
 
-Don't count in the existence of member function templates.
+Member function templates never suppress generation of special member functions.
 
 ```
 class Widget {
