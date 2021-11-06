@@ -78,3 +78,16 @@ title: C++ Terminology
    * Types that can have values determined during compilation.
       * All built-in types except `void` qualify.
       * User-defined types may be literal, too, because ctors and other member functions may be `constexpr`.
+
+* Special Member Functions
+   * The ones that C++ is willing to generate on its own.
+      * The default ctor.
+      * The dtor.
+      * The copy ctor.
+      * The copy assignment operator.
+      * The move ctor.
+      * The move assignment operator.
+
+
+
+
