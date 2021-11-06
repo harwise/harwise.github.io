@@ -9,5 +9,7 @@ title: C++ generic code
    * 所有就能理解为什么会有那么多non-member functions了。
    * std::to_string
    * std::swap, std::sort
+   * std::lower_bound, std::upper_bound, std::binary_search
+
 
 
