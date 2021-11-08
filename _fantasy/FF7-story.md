@@ -157,6 +157,14 @@ Oh, and in battle, Cait Sith has a move that can either kill every enemy in on h
 
 # Yuffie Kisaragi
 
+* Self-styled materia thief
+* Member of the Wutai Clan
+
+We're sill waiting on Yuffie to make an appearance in the Remake, but in the original, Cloud and company can be attacked by a mysterious ninja girl. After she **gets the crud beaten out of her**, she introduces herself as Yuffie, and demands to join the team. She acts selfish, but she always **sticks by the party's side**, until they **drop by** her hometown of Wutai Village. Once they get to Wutai, Yuffie steals the party's stash and Materia and runs away. But the gang **catches up to** Yuffie. **She's being held hostage** by Midgar's friendly neighborhood crime boss Don Corneo. After her friends **beta the tar out of Corneo**, Yuffie apologizes, returns the stolen Materia and rejoins the team.
+
+Yeah, Yuffie's Materia-obsessed **kleptomaniac**, but she just wants to impress her father, the leader of the Wutai Clan. Yuffie's cocky and doesn't **respect Wutai traditions**, so she and her dad are constantly **at odds with** each other. But ever since the Wutai War, Yuffie's had an **innate need** to make him proud.
+
+# The Wutai War
 
 
 
