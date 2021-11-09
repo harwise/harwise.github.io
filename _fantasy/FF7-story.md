@@ -166,5 +166,11 @@ Yeah, Yuffie's Materia-obsessed **kleptomaniac**, but she just wants to impress 
 
 # The Wutai War
 
+Roughly around the time Yuffie was born, a violent conflict **arose** between the Wutai Clan and Shinra. Shinra wanted to build a Mako Reactor in Wutai village, which didn't exactly **sit well with** the **tradition-oriented** Ninja clan. This sparked **an all-out war**. Despite Shinra's numbers, technology, and resources, the Wutai warriors put up a major fight thanks to their ninja training. Nonetheless, Shinra's SOLDIER program **tipped the scales in Shinra's favor**. Their golden boy Sephiroth distinguished himeself as a war hero, winning numerous key battles in the conflict, and the war ultimately ended when Zack Fair single-handedly captured Wutai Village.
 
+With the Wutai defeated, Yuffie's father was forced to **concede to Shinra's demands**. He banned the use of Materia and allowing Wutai village to be transformed from **a sacred place of culture** to **a tourist trap**. Yuffie was burnt by her father's surrender, so she ran away from Wutai, vowing to find Materia that she believed could save her village from Shinra's control.
+
+Yuffie's pretty helpful, but Cid Highwind is an invaluable member of Cloud's party.
+
+# Cid Highwind
 
