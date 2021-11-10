@@ -88,6 +88,16 @@ title: C++ Terminology
       * The move ctor.
       * The move assignment operator.
 
+* Dangling Pointers
+* Raw Pointers
+* Smart Pointers
 
+* CRTP
+   * The Curiously Recurring Template Pattern
+   * A derived class inherits from a base class templatized on the derived class.
 
+* Pimpl
+   * pointer to implementation
 
+* Incomplete Type
+   * A type that has been declared, but not defined.
