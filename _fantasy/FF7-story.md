@@ -174,3 +174,15 @@ Yuffie's pretty helpful, but Cid Highwind is an invaluable member of Cloud's par
 
 # Cid Highwind
 
+* Disgraced mechanical engineer
+* Knows how to use a spear...
+* ...For some reaon
+
+We don't get much new background on Cid in the Remake, but we know that Cid's **a mechanic and scientist by trade**, and always dreamed of sending a rocket to outer space. With the help of Shinra's Space Program, it seemed like he was finally going to fulfill this dream. Unfortunately, he was forced to abort the launch at the last second to save his assistant, Shera. As a reslult of the launch's failure, Shinra abandoned their Space Program, leaving Cid's rocket sitting in the middle of a town as a landmark, and the **namesake** of Rocket Town. Shera blamed herself, and, hey, so did Cid. Shera spent the following years trying to **make it up to him**, while the **disgruntled** Cid just treated her like garbage.
+
+Cid gets **a glimmer of hope** when Shinra's new president, Rufus, comes to vist Rocket Town, but Rufus dosen't want to renew the Space Program. He only wants to take Cid's **biplane**, the Tiny Bronco. When Cloud and his friends show up in Rocket Town, they catch Palmer, the directoror of Shinra Space Program, attempting to steal the Tiny Bronco. Cid helps them battle Palmer, who runs away and gets hit by a truck. Cid and the gang then escape from Shinra with Cid grabbing onto the plane as it flys away, **begrudingly** becoming a member of the party.
+
+Cid's a **foul-mouthed**, **cynical** old **bastard**. He doesn't have much interest in the team's quest to, uh, save the world. Still, he's not gonna let Shinra relaunch his rocket. Besides, the gang needs to take the Huge Materia that powers the rocket in order to stop Sephiroth. **Ironically**, Cid trys to stop his own rocket from launching, but Shinra locks them in the rocket before **blasting it off** into space. Once Cid sees the planet from space, he realizes he's finnally achieved his dream, and that the world needs him to stop sephiroth. So, with Shera's help, he and the rest of the gang finally make it back to Earth, and Cid continues the quest with **a newfound sense of purpose**. He also flies the airship later. It's pretty sick.
+
+# Vincent Valentine
+
