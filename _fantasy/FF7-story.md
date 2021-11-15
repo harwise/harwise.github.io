@@ -186,3 +186,14 @@ Cid's a **foul-mouthed**, **cynical** old **bastard**. He doesn't have much inte
 
 # Vincent Valentine
 
+* Former Turk
+* Shapeshifting **werewolf** guy
+
+We haven't seen him in the Remake, but Vincent has one of the most improtant backstories. Once upon a time, Vincent was a Turk working with Shinra. He had a crush on a Shinra scientist named Lucrecia, but she ended up marrying Shinra's head researcher Professor Hojo, and became pregnant with Hojo's child. Hojo intended to use his unborn son as a test subject for his greatest project yet, so he started experimenting on a pregnant Lucrecia. Vincent noticed her health start to **deteriorate**, so he confronted Hojo to tell him to put a stop to this madness. Well, Hojo shot Vincent in the chest and sarted performing horrible experiments on him, because, why not? As time passed, Vincent showed no signs of, not being dead anymore. So, in a **last-ditch effort** to save him, Lucrecia **infused him with** the **demonic** Chaos-infused mako, as well as its balancing counterpart, the Protomateria. Vincent awoke, alone, in Hojo's abandoned laboratory in the basement of Shinra Manor.
+
+He now had **superhuman** strength and **agility**, as well as the ability to turn into a wolf-like chaos form thanks to Lucrecia's precedure. Vincent figured that Lucrecia was dead, and he blamed himself for it. Apparently, there was a big Dracula coffin lying around in this top-secret laboratory, so as a punishment, Vincent locked himself inside it. He slept there for 20 years, **reliving the tragedies** he suffered at the hands of Hojo in his nightmares.
+
+When Cloud and his friends **awaken** this **angsty** vampire werewolf man, Vincent decides to team up with them to fight Shinra, and later, star in his own **spin-off** game. But what ever happened to Lucrecia's baby.
+
+# The Jenova Project And Sephiroth
+
