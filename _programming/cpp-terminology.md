@@ -101,3 +101,42 @@ title: C++ Terminology
 
 * Incomplete Type
    * A type that has been declared, but not defined.
+
+* RVO
+   * Return Value Optimization
+
+* Tag Dispatch
+   ```
+   template<typename T>
+   void logAndAdd(T&& name)
+   {
+      /*
+       * std::is_integral inherits from std::true_type or std::false_type
+       * depending on the template argument.
+       */
+      logAndAddImpl(
+         std::forward<T>(name),
+         std::is_integral<typename std::remove_reference_t<T>>());
+   }
+
+   template<typename T>
+   void logAndAddImpl(T&& name, std::false_type)
+   {
+      auto now = std::chrono::system_clock::now();
+      log(now, "logAndAdd");
+      names.emplace(std::forward<T>(name));
+   }
+
+   void logAndAddImpl(int idx, std::true_type)
+   {
+      logAndAdd(nameFromIdx(idx));
+   }
+   ```
+
+* SFINAE
+   * Substitution Failure Is Not A Error.
+
+* SSO
+   * small string optimization
+
+* Braced Initializer

@@ -9,7 +9,7 @@ title: C++ decltype
 
 ## decltype
 
-* Applying `decltype` to a name yields he declared type for that name. (Notice that names themselves are lvalues expressions.)
+* Applying `decltype` to a name yields the declared type for that name. (Notice that names themselves are lvalue expressions.)
 * For lvalue expressions other than names, `decltype` ensures that the type reported is always an lvalue **reference**.
 
 ```

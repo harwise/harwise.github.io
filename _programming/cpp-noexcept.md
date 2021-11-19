@@ -12,6 +12,7 @@ title: C++ noexcept
 1. `move` operations.
    * std::vector::push_back's strong exception safety guarantee: if an exception was thrown during the copying of the elements, the state of the std::vector remained unchanged.
    * To optimize by replacing the copying of elements with moves, elements' move operations must be `noexcept`.
+      * std::move_if_noexcept, use *move* instead of *copy* only if the move constructor doesn't throw exceptions. In std code, it is typically used to combine move semantics with strong exception guarantee.
 
 2. `swap`.
    * Is a key component of many STL algorithm implementations.

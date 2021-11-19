@@ -11,5 +11,8 @@ title: C++ generic code
    * std::swap, std::sort
    * std::lower_bound, std::upper_bound, std::binary_search
 
+* Tag Dispatch
+   * It's a standard building block of template metaprogramming, and the more you look at code inside contemporary C++ libraries, the more often you'll encounter it.
+   
 
 
