@@ -5,7 +5,7 @@ title: FF7 Story
 
 [The source](https://www.youtube.com/watch?v=_A1svJNN_9g)
 
-After having finished "Final Fantasy 7 Remake" on PS4, I was intrigued to learn the whole story.
+Having finished "Final Fantasy 7 Remake" on PS4, I got intrigued to learn the whole story.
 
 # Cloud Strife
 
@@ -41,7 +41,7 @@ They planned to work as mercenaries once Cloud had fully recovered, but a team o
 
 As a sprawling industrial **metropolis**, Midgar is the base of operations for the Shinra empire. The whole city is powered by six huge Mako reactors, and it's structured made of a series of tiered plates stacked on top of each other. It's like a **dystopian** wedding cake. The wealthy live in comfort on the upper level where Shinra Headquarter is located. Everyone else is left to **fend for** themselves in the slums below. The lower levels are mostly run by criminal organizations and gangsters like Con Corneo. He keeps Shinra from interfering in his business by keeping them informed on any **ongoing** terrorist activities in the lower sectors.
 
-Once Cloud got into Midgar, he stumbled around the city for a while, living on the streets while **mumbling** **incoherently** to himself. Luckily, Tifa was also living in Midgar. When she found Cloud, she invited him to work with her in a anti-Shinra **resistance group**, Avalanche.
+Once Cloud got into Midgar, he **stumbled around the city** for a while, living on the streets while **mumbling** **incoherently** to himself. Luckily, Tifa was also living in Midgar. When she found Cloud, she invited him to work with her in a anti-Shinra **resistance group**, Avalanche.
 
 # Tifa Lockhart
 
@@ -64,7 +64,7 @@ After Cloud's first job with Avalanche is a success, she manages to convince him
 
 Barret was once a simple married man living in a small mining town of Corel. When his wife, Myrna fell ill, he convinced the people of Corel to allow Shinra to build a Mako reactor near the community. He hoped that the corporate partnership can provide the resources needed to treat his wife. Barret's friend Dyne opposed the idea at first, but he **backed down** out of **respect for** Barret's reasoning.
 
-Not long after the Corel reactor was built, Avalanche hijacked the facility. No, not Barret's Avalanche, but an earlier, more violent **incarnation** of the group. Barret and Dyne fought to help Shinra retake the reactor, but Shinra figured the people of Corel was responsible for this incident. So, they blew up the Mako plant and attacked the village **in retaliation** Barret and Dyne hurried back to save their town, but Shinra forces ambushed them, leaving the two in a literal **cliffhanger**. Barret saved Dyne from falling by grabbing his hand, but Scarlet, a Shinra's execute, shot both men's hands clean off, sending Dyne **tumbling** into the **abyss**. Despite the odds, Barret managed to escape with Dyne's daughter, Marlene, adopting her as his own.
+Not long after the Corel reactor was built, Avalanche hijacked the facility. No, not Barret's Avalanche, but an earlier, more violent **incarnation** of the group. Barret and Dyne fought to help Shinra retake the reactor, but Shinra figured the people of Corel was responsible for this incident. So, they blew up the Mako plant and attacked the village **in retaliation** Barret and Dyne hurried back to save their town, but Shinra forces ambushed them, leaving the two in a literal **cliffhanger**. Barret saved Dyne from falling by grabbing his hand, but Scarlet, a Shinra's execute, shot both men's hands clean off, sending Dyne **tumbling into the abyss**. Despite the odds, Barret managed to escape with Dyne's daughter, Marlene, adopting her as his own.
 
 He set off for Midgar, replaced his lost hand with a sweet machine gun, and formed his own version of Avalanche fo fight again Shinra. Sure, he wants to protect the planet from Shinra's environmentally harmful Mako harvesting, But **he's also out to** **avenge** his home, his wife and his best friend, and his arm.
 
@@ -162,7 +162,7 @@ Oh, and in battle, Cait Sith has a move that can either kill every enemy in on h
 
 We're sill waiting on Yuffie to make an appearance in the Remake, but in the original, Cloud and company can be attacked by a mysterious ninja girl. After she **gets the crud beaten out of her**, she introduces herself as Yuffie, and demands to join the team. She acts selfish, but she always **sticks by the party's side**, until they **drop by** her hometown of Wutai Village. Once they get to Wutai, Yuffie steals the party's stash and Materia and runs away. But the gang **catches up to** Yuffie. **She's being held hostage** by Midgar's friendly neighborhood crime boss Don Corneo. After her friends **beta the tar out of Corneo**, Yuffie apologizes, returns the stolen Materia and rejoins the team.
 
-Yeah, Yuffie's Materia-obsessed **kleptomaniac**, but she just wants to impress her father, the leader of the Wutai Clan. Yuffie's cocky and doesn't **respect Wutai traditions**, so she and her dad are constantly **at odds with** each other. But ever since the Wutai War, Yuffie's had an **innate need** to make him proud.
+Yeah, Yuffie's a Materia-obsessed **kleptomaniac**, but she just wants to impress her father, the leader of the Wutai Clan. Yuffie's cocky and doesn't **respect Wutai traditions**, so she and her dad are constantly **at odds with** each other. But ever since the Wutai War, Yuffie's had an **innate need** to make him proud.
 
 # The Wutai War
 
@@ -197,7 +197,7 @@ When Cloud and his friends **awaken** this **angsty** vampire werewolf man, Vinc
 
 # The Jenova Project And Sephiroth
 
-So, remember that big **alien** that nearly **wiped out** The Cetra? Well, Shinra found it frozen it in a **crater**, and mistook it for Cetra. I mean, it's a super easy mistake, I guess. Hojo and his team **dubbed** the specimen Jenova and immediately got to work, trying to figure out how they could use it. At first, they tried to use Jenova to find more Mako to drill. But once that didn't work out, the Jenova Project became all about creating some super soldiers by injecting an unborn child with cells from Jenova's body. And the very first test subject turned out to be, you guessed it, Hojo and Lucrecia's baby, who turned out to be, you guessed it again, Sephiroth!
+So, remember that big **alien** that nearly **wiped out** The Cetra? Well, Shinra found it frozen it in a **crater**, and mistook it for a Cetra. I mean, it's a super easy mistake, I guess. Hojo and his team **dubbed** the specimen Jenova and immediately got to work, trying to figure out how they could use it. At first, they tried to use Jenova to find more Mako to drill. But once that didn't work out, the Jenova Project became all about creating some super soldiers by injecting an unborn child with cells from Jenova's body. And the very first test subject turned out to be, you guessed it, Hojo and Lucrecia's baby, who turned out to be, you guessed it again, Sephiroth!
 
 Sephiroth was taken from his parents and **raised to become** a SOLDIER. And hey, he was so good at killing things that he got famous for it. All Sephiroth knew about his origins was that his mother's name was Jenova, which is true, in a sort of **messed up** way. In reality, Jenova wasn't as much his Mom as it was a part of him, if not him entirely. Well, when he discovered the Shinra Manor in Nibelheim, he found all of Dr. Hojo's notes about the Jenova project and how he was born. If Sephiroth had any marbles at that point, he lost them then. He became **unhinged** and **obsessed with destroying the world**, accomplishing what Jenova had tried to do thousands of years before.
 
