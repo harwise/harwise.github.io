@@ -13,13 +13,27 @@ title: C++ Terminology
 * Argument
 * Parameter
 
-* Exception safe
-   * basic guarantee
-   * strong guarantee
+* Exception Safe
+   * basic guarantee  
+      If an exception occurs, no memory is leaked and the object is still in a usable state even though the data might have been modified. (Rely on hat destructors are no-fail.)
+   * strong guarantee  
+      If a function goes out of scope because of an exception, it will not leak memory and program state will not be modified. Either it completely succeeds or it has no effect. (Rely on hat destructors are no-fail.)
+   * on-fail (or no-throw) guarantee  
+      The strongest guarantee that a function can provide. It states that the function will not throw an exception or allow one to propagate. 
 
-* Function Object
-* Callable Object
-* Closure
+---
+* Function Objects
+* Callable Objects
+* Bind Objects (function objects returned from std::bind)
+
+* Lambda Expression  
+   the expression.
+* Closure  
+   the runtime object created by a lambda.
+* Closure Class  
+   the class from which a closure is instantiated. Each lambda causes compilers to generate a unique closure class.
+* Init Capture = Generalized Lambda Capture
+---
 
 * Template Function
 * Function Template
