@@ -22,3 +22,14 @@ title: C++ types
 
 * Don't forget `using namespace std::literals`.
 * s:second, ms:millisecond, us:microsecond, h:hour.
+
+## Move-only types.
+
+* `std::unique_ptr`
+* `std::promise`
+* `std::future`
+* `std::thread`
+
+## Non-Move & Non-Copy types.
+
+* `std::atomic`

@@ -154,3 +154,21 @@ title: C++ Terminology
    * small string optimization
 
 * Braced Initializer
+
+* Thread-based programming
+* Task-based programming
+
+* Hardware Threads  
+   Contemporary machine architectures offer one or more hardware threads per CPU core.
+* Software Threads  
+   OS threads or system threads.
+* std::threads  
+   Handles to underlying software threads. Some std::thread objects represent "null" handles.
+* Oversubscription  
+   There are more ready-to-run software threads than hardware threads.  
+   Context Switch can be costly. (CPU caches.)
+
+* RMW
+   * read-modify-write
+
+

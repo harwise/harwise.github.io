@@ -5,12 +5,6 @@ title: C++ rvalue
 
 *Effective Modern C++ Chapter 5*
 
-* Move-only types.
-   * `std::unique_ptr`
-   * `std::promise`
-   * `std::future`
-   * `std::thread`
-
 * A parameter is always an lvalue, even if its type is an rvalue reference.
    ```
    void f(Widget&& w);

@@ -13,6 +13,9 @@ title: C++ generic code
 
 * Tag Dispatch
    * It's a standard building block of template metaprogramming, and the more you look at code inside contemporary C++ libraries, the more often you'll encounter it.
-   
+
+
+* std::result_of<CallableObj>::type
+
 
 
