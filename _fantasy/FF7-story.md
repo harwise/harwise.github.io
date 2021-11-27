@@ -32,7 +32,7 @@ Cloud chased Sephiroth up the mountain to the reactor, where he found Tifa and Z
 
 Shinra **operatives** found unconscious Zack and Cloud near the reactor and moved them to the laboratory in Shinra Manor. There, they performed **inhumane experiments** on the two of them using Mako energy. Since he was a SOLDIER, Zack was able to **withstand** it, but the **overexposure** to Mako left Cloud **physically and psychologically fractured**. After years in the lab, Zack was able to break him and his **catatonic** buddy out and make their way towards the Midgar.
 
-They planned to work as mercenaries once Cloud had fully recovered, but a team of Shinra operatives attacked them once they reached the outskirts of Midgar. With his dying breath, Zack bequeathed his Buster Sword to Cloud, and told him to work in Midgar without him.
+They planned to work as mercenaries once Cloud had fully recovered, but a team of Shinra operatives attacked them once they reached the outskirts of Midgar. With his dying breath, Zack **bequeathed his Buster Sword to Cloud**, and told him to work in Midgar without him.
 
 # Midgar
 
@@ -70,7 +70,7 @@ He set off for Midgar, replaced his lost hand with a sweet machine gun, and form
 
 # Avalanche
 
-* Underground eco-terrorist group
+* Underground **eco-terrorist** group
 * Led by Barret Wallace
 
 Barret's cell of Avalanche is relatively separate from the more **militaristic** official faction of Avalanche referred to as Avalanche HQ. While Barret's team **disapproves of** Avalanche HQ's more violent methods, HQ isn't a fan of Barret's **chaotic** approach. Nonetheless, the two Avalanche groups in Midgar tend to stay out of each other's business. Biggs, Wedge, and Jessie Rasberry joined Barret's group, eager to fight against Shinra.
@@ -111,7 +111,7 @@ The Cetra were an ancient race that **inhabited** Earth thousands of years ago. 
 
 Some Cetra strayed from their **nomadic** ways, and settled down, starting their own civilizations. The descendent of these Cetra would become the humans of present day. And then something really interesting happened: an **alien** showed up and killed then all. Well, almost all of them. The survivors **banded together** to use their magic to seal the alien away, trapping it in the **crater** where it was originally landed. 2,000 years later, Shinra would take a deep interest in the Cetra. Well, they were more interested in the vast energy of the Promised Land.
 
-**Okie Dokie.** So, the Remake only covers the stuff that happens in Midgar. In other words, we'ar starting to get into uncharted territory. Sure, we've met Red XIII in the Remake, but we haven't really got the chance to know him yet. So **from here on in**, we're gonna go by info from the original Final Fantasy 7.
+**Okie Dokie.** So, the Remake only covers the stuff that happens in Midgar. In other words, we'ar starting to get into uncharted territory. Sure, we've met Red XIII in the Remake, but we haven't really got the chance to know him yet. So **from here on in**, we're gonna **go by info** from the original Final Fantasy 7.
  
 # Red XIII
 
@@ -122,7 +122,7 @@ When Cloud and the gang attack Shinra's HQ to rescue Aerith, they find her locke
 
 When Nanaki was just a cub, his father disappeared. **A rival tribe** called the Gi was about to invade, so Red XIII figured his dad **bailed** to save himself. Soon after, his mother **passed away**, so Bugenhagen raised Nanaki himself as his grandfather. Even though Nanaki's 48, he's basically a teenager in his species' lifespan.
 
-Nanaki set out for a **ritual** his species performs every 50 years to **appease** the planet. But before he could return home, the Turks kidnapped him and sent him off to Dr. Hojo's for his twisted experiments. **Dubbed** Red XIII by the Shinra researchers, Nanaki is **branded**, scarred, and **genetically** modified by Dr. Hojo. But his real power remains intact. After Cloud frees him, he helps the group escape from Midgar and leads them to his his **ancestral** home: Cosmo Canyon. 
+Nanaki **set out** for a **ritual** his species performs every 50 years to **appease** the planet. But before he could return home, the Turks kidnapped him and sent him off to Dr. Hojo's for his twisted experiments. **Dubbed** Red XIII by the Shinra researchers, Nanaki is **branded**, scarred, and **genetically** modified by Dr. Hojo. But his real power remains intact. After Cloud frees him, he helps the group escape from Midgar and leads them to his **ancestral** home: Cosmo Canyon. 
 
 # Cosmo Canyon
 
@@ -189,7 +189,7 @@ Cid's a **foul-mouthed**, **cynical** old **bastard**. He doesn't have much inte
 * Former Turk
 * Shapeshifting **werewolf** guy
 
-We haven't seen him in the Remake, but Vincent has one of the most improtant backstories. Once upon a time, Vincent was a Turk working with Shinra. He had a crush on a Shinra scientist named Lucrecia, but she ended up marrying Shinra's head researcher Professor Hojo, and became pregnant with Hojo's child. Hojo intended to use his unborn son as a test subject for his greatest project yet, so he started experimenting on a pregnant Lucrecia. Vincent noticed her health start to **deteriorate**, so he confronted Hojo to tell him to put a stop to this madness. Well, Hojo shot Vincent in the chest and sarted performing horrible experiments on him, because, why not? As time passed, Vincent showed no signs of, not being dead anymore. So, in a **last-ditch effort** to save him, Lucrecia **infused him with** the **demonic** Chaos-infused mako, as well as its balancing counterpart, the Protomateria. Vincent awoke, alone, in Hojo's abandoned laboratory in the basement of Shinra Manor.
+We haven't seen him in the Remake, but Vincent has one of the most improtant backstories. Once upon a time, Vincent was a Turk working with Shinra. He had a crush on a Shinra scientist named Lucrecia, but she ended up marrying Shinra's head researcher Professor Hojo, and became pregnant with Hojo's child. Hojo intended to use his unborn son as a test subject for his greatest project yet, so he started experimenting on a pregnant Lucrecia. Vincent noticed her health start to **deteriorate**, so he confronted Hojo to tell him to put a stop to this madness. Well, Hojo shot Vincent in the chest and sarted performing horrible experiments on him, because, why not? As time passed, Vincent showed no signs of, not being dead anymore. So, in **a last-ditch effort** to save him, Lucrecia **infused him with** the **demonic** Chaos-infused mako, as well as its balancing counterpart, the Protomateria. Vincent awoke, alone, in Hojo's abandoned laboratory in the basement of Shinra Manor.
 
 He now had **superhuman** strength and **agility**, as well as the ability to turn into a wolf-like chaos form thanks to Lucrecia's precedure. Vincent figured that Lucrecia was dead, and he blamed himself for it. Apparently, there was a big Dracula coffin lying around in this top-secret laboratory, so as a punishment, Vincent locked himself inside it. He slept there for 20 years, **reliving the tragedies** he suffered at the hands of Hojo in his nightmares.
 
