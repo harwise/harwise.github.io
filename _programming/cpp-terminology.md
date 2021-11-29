@@ -168,7 +168,13 @@ title: C++ Terminology
    There are more ready-to-run software threads than hardware threads.  
    Context Switch can be costly. (CPU caches.)
 
-* RMW
-   * read-modify-write
+* RMW  
+   read-modify-write
 
+* direct initialization  
+   * std::regex r1 = nullptr;
+   * explicit constructors can be used.
 
+* copy initialization
+   * std::regex r2(nullptr);
+   * explicit constructors are not permitted to use.

@@ -3,6 +3,8 @@ layout: default
 title: C++ Function Parameters
 ---
 
+*Effective Modern C++ Chapter 8*
+
 ## Pass by value
 
 * In general, don't pass by value.
