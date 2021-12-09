@@ -28,3 +28,6 @@ title: Tree Terminology
    - Binary jumping on tree
 
 * Traversal
+   - pre-order
+   - post-order
+   - Tree Linearization
