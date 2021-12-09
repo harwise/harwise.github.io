@@ -15,3 +15,13 @@ The youngest horseman, War, does not **succumb to** the Council's will easily, a
 
 ## The Abomination Vault
 
+Several centuries later, we find Death (the eldest of the Four Horsemen), on **a barren world** after travelling the worlds of Creation alone for 500 years. He is visited by a creature known as Panoptos, who informs Death that he was sent to retrieve the Horseman and bring him before the Charred Council. Death refuses to speak to the Council, but Panoptos informs him that their business relates to an attack **on the boundaries of Eden**, which prompts Death to head there to investigate himself.
+
+Upon arriving, Death finds no evidence of a battle, aside from a defeated Angel, whose spirit he **revives** to **interrogate** about the attack. He learns that the Angels **stationed on Eden's boundary** were attacked by an army of Constructs (beings created by a race known as the Makers). They were nearly **overrun** before Abaddon, a leader of one of Heaven's forces known as the Hellguard, arrived with **reinforcements**. 
+
+His interrogation is **cut short** when another group of Angels arrive, and the clean battlefield is revealed to have been an illusion created by another Angel, Azrael, to prevent any other enemies from discovering their current weakness. Azrael takes Death to a nearby camp to meet with Abaddon. Death discovers that Abaddon lost his eye in the preceding battle to a powerful sword that Death recognizes as an ancient weapon called "Affliction", which was later lost by the Nephilim. Fearing that other ancient weapons might have been discovered and obtained by their unknown attackers, Death heads off to Kothysos, where Affliction was originally lost.
+
+There, Death finds another crew of Constructs **wrapping up** an **excavation operation**, and comes to the conclusion that their **foe** must have already found what they were looking for there. Death then notices his **crow**, Dust, in a panic. He **makes his way to** the Crowfather, a member of an ancient race called the "Old Ones", who maintained a connection with Dust, and discovers an attack on his domain by the Constructs.
+
+They **fend off the attack**, and the two are able to extract knowledge from one of the fallen Constructs to learn  that the army was built by a Maker named Belisatra to find a way to awake the "Grand Abominations": tools created by the Nephilim from a race called the Ravaiim after their **extermination** **at their hands**.
+
