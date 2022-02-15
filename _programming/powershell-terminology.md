@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Power Terminology
+title: PowerShell Terminology
 ---
 
 * Type Accelerators  
