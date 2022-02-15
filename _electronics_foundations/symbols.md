@@ -67,9 +67,69 @@ COM (**own** common point) - batteries.
 * U - Integrated Circuit
 * Y - Oscillator
 
-# ????????
+# Voltage
+
+* Working Voltage - maximum continuous voltage
+* OverVoltage - maximum surge voltage
+
+## Shift Voltage Levels
+
+* Resistors for Voltage Dividers: use 1 $k\Omega$ - 10 $k\Omega$ resisitors.  
+    Can only shift down.  
+    Only use for low-current signals. ( a few $mAs$ )  
+    Do not use for power supply output.  
+* Voltage Regulator
+* Switching Power Supply
+
+
+
+# Components
 
 ## Wires
 
 * 22 AWG - just fit in breadboard holes. Good for jumper wires.
+
+## Resistors (passive)
+
+### PTH
+
+Plated-through hole
+
+* normally 1/8 - 2 watts
+* Power Resistors: 10s - 100s watts
+
+### SMD
+
+Surface-mount device
+
+Smaller than PTHs
+
+### Variable Resistors
+
+* Potentiometers/Pots (3 terminals)
+* Rheostat (2 terminals)
+
+### Photoresistors / LDR (Light Dependent Resistor)
+
+* More lights leads to less resistence
+
+### Types
+
+* Carbon Film (Cheapest, most common)
+* Metal Film
+* Wire Wound (most accurate and stable)
+
+### Powering rating vs. working voltage
+
+* Powering rating limits small resistors (< 250 $k\Omega$)
+* Working voltage limits large resistors (> 250 $k\Omega$)
+
+### Resistive Sensors
+
+* Photoresistor changes based on light
+* Strain Gauge changes based on physical strain
+* Thermistor changes based on temperature
+
+  For microcontrollers, measuring resistors is hard, but reading voltage is easy (e.g. Arduino A0 channel).  
+  use Voltage Dividers.
 

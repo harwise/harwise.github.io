@@ -24,7 +24,13 @@ layout: default
          </a>
       </h2>
       {% endfor %}
-      
+
+      <h2>
+         <a href="./electronics_foundations/Common-Resistor-Values.pdf">
+            Common-Resistor-Values
+         </a>
+      </h2>
+
       <script src="" async defer></script>
    </body>
 </html>
