@@ -26,8 +26,14 @@ layout: default
       {% endfor %}
 
       <h2>
+         <a href="./electronics_foundations/component_pics.jpg">
+            components-Photos
+         </a>
          <a href="./electronics_foundations/Common-Resistor-Values.pdf">
             Common-Resistor-Values
+         </a>
+         <a href="./Resistor-Decoder-and-Schematic-Legend.pdf">
+            Resistor-Decoder-and-Schematic-Legend
          </a>
       </h2>
 
