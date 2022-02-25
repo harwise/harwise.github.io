@@ -11,14 +11,14 @@ title: Linear Algebra Transforms
 |:--------:|
 |$T(u+v) = Tu + Tv$ <br> $T(\lambda v) = \lambda T(v)$|
 |(Fundermental Theorem) $u_1,\dots,u_m, v_1,\dots v_n$, u is a basis of null $T$, then $Tv_1,\dots,Tv_n$ is a basis of range $T$.|
-
+<br><br>
 
 |upper-triangular matrix|
 |:---------------------:|
 |$T$ with respect to $v_1,\dots,v_n$ is upper triangular.|
 |$Tv_j\in span(v_1,\dots v_j)$ for each $j=1,\dots,n$.|
 |$span(v1,\dots,v_j)$ is invariant under $T$ for each $j=1,\dots,n$.|
-
+<br><br>
 
 |diagonalizable|
 |:------------:|
@@ -26,7 +26,7 @@ title: Linear Algebra Transforms
 |There exists 1-dimensional subspaces $U_1,\dots,U_n$ of $V$, each invariant under $T$, such that $V=U_1\oplus\dots\oplus U_n$.|
 |$V=E(\lambda_1,T)\oplus\dots\oplus E(\lambda_n,T)$.|
 |$dimV$ = $dimE(\lambda_1,T)+\dots + dimE(\lambda_m,T)$|
-
+<br><br>
 
 |normal operator|
 |:-------------:|
@@ -35,7 +35,7 @@ title: Linear Algebra Transforms
 |(property) $Tv=\lambda v \iff T^*v=\overline{\lambda}v$|
 |(property) Eigenvectors corresponding to distinct enginvalues are orthogonal.|
 |Over $C$, normal = diagonalizable with respect to an orthogonal basis.|
-
+<br><br>
 
 |self-adjoint operator|
 |:-------------------:|
@@ -47,7 +47,7 @@ title: Linear Algebra Transforms
 |(property) Eigenvectors corresponding to distinct enginvalues are orthogonal.|
 |(property) $\langle Tv,v\rangle=0 \rightarrow T=0$ (This is interesting only over $R$, because over $C$, it is always true, not just for self-adjoint oprators.)|
 |Over $R$, self-adjoint $\iff$ diagonalizable with respect to an orthogonal basis|
-
+<br><br>
 
 |positive operator|
 |:---------------:|
@@ -56,7 +56,7 @@ title: Linear Algebra Transforms
 |$T$ has a positive square root. (and it's unique)|
 |$T$ has a self-adjoint square root.|
 |there exists an operator $R\in L(V)$ such that $T=R*R$.|
-
+<br><br>
 
 |isometry|
 |:------:|
@@ -69,5 +69,5 @@ title: Linear Algebra Transforms
 |$S^*$ is isometry.|
 |$S$ is invertible and $S^{-1}=S^*$|
 |Over C, diagonalizable with respect to an orthogonal basis (eigenvectors), and eigenvalues have absolute value 1.|
-
+<br><br>
 
