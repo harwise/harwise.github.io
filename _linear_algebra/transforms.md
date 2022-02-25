@@ -7,8 +7,8 @@ title: Linear Algebra Transforms
 
 ![](./LinearTransforms.svg)
 
-linear map|
-----------|
+|linear map|
+|----------|
 $T(u+v) = Tu + Tv$ <br> $T(\lambda v) = \lambda T(v)$
 (Fundermental Theorem) $u_1,\dots,u_m, v_1,\dots v_n$, u is a basis of null $T$, then $Tv_1,\dots,Tv_n$ is a basis of range $T$.
 
