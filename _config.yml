@@ -15,6 +15,7 @@ collections:
     output: true
   english:
     output: true
-
+  linear_algebra:
+    output: true
 
 
