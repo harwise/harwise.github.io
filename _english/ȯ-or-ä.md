@@ -10,43 +10,58 @@ title: ȯ or ä
 
 ---
 
-* [ȯ] all, call, tall, fall, talk /tȯk/, bald /bȯld/
-* [ä] doll /däl/, dollar, follow, solve, holiday
+* [ȯ] all, call, tall, fall, talk /tȯk/, bald /bȯld/, also /ȯlsō/
+* [ä] calm, palm
+* [ä] doll /däl/, dollar, follow, solve, holiday, involve
 
 ---
 
-* [ȯ] long
+* [ȯ] long, song
 * [ä] gong
 
 ---
 
-* [ȯ] horror
+* [ȯ] horror, horizontal
 * [ä] borrow
 
 ---
 
-* [ȯ] dog, log, fog, frog
-* [ä] toggle
+* [ȯ] dog, log, fog, frog, analog, dialogue
+* [ä] toggle, photographer
 * [ä] October, lock, block, fox, box, octopus
 
 ---
 
+* [ȯ] off, soft, software, loft, coffee
+* [ä] hover
+
+---
+
 * [ȯ] cross, across, loss, moss, toss, boss
-* [ȯ] lost, foster
-* [ä] Moscow, hospital, possiblity, chaos, positive
+* [ȯ] cost, lost, foster, frost
+* [ä] costum, Moscow, hospital, possiblity, chaos, positive
 
 ---
----
 
-* [ȯ] soft, software, loft
 * [ȯ] sloth
-* [ȯ] toy, join, coin
+* [ä] bother, father
+
+---
+---
+
+* [ȯ] boy, toy, join, coin
 
 ---
 ---
 
 * [ä] what, somewhat
-* [ä] from, common, abomination, nomination
+* [ä] watch
+* [ä] from, common, wombat, abomination, nomination, compensate
 * [ä] not, slot, hot, plot, odd, modern
-* [ä] shop, chop, hop, lobby, lobster
+* [ä] drop, shop, chop, hop, lobby, lobster, proper
+
+---
+---
+
+* [ə] among
 
