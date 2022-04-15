@@ -31,3 +31,8 @@ title: Tree Terminology
    - pre-order
    - post-order
    - Tree Linearization
+
+* Euler Tour of a Tree
+   - A circuit
+   - DFS the tree
+

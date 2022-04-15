@@ -6,18 +6,23 @@ title: ȯ or ä
 # ȯ or ä
 
 * [ȯ] on
-* [ä] honest, pond, respond, fond, con-
+* [ä] honest, pond, respond, fond, monitor, con-
 
 ---
 
 * [ȯ] all, call, tall, fall, talk /tȯk/, bald /bȯld/, also /ȯlsō/
 * [ä] calm, palm
-* [ä] doll /däl/, dollar, follow, solve, holiday, involve
+* [ä] doll /däl/, dollar, follow, solve, holiday, involve, tolerance
 
 ---
 
 * [ȯ] long, song
 * [ä] gong
+
+---
+
+* [ȯ] water
+* [ä] what, somewhat
 
 ---
 
@@ -43,21 +48,22 @@ title: ȯ or ä
 
 ---
 
-* [ȯ] sloth
+* [ȯ] sloth, froth
 * [ä] bother, father
 
 ---
 ---
 
 * [ȯ] boy, toy, join, coin
+* [ȯ] wash
 
 ---
 ---
 
-* [ä] what, somewhat
+
 * [ä] watch
 * [ä] from, common, wombat, abomination, nomination, compensate
-* [ä] not, slot, hot, plot, odd, modern
+* [ä] not, slot, hot, plot, body, odd, modern
 * [ä] drop, shop, chop, hop, lobby, lobster, proper
 
 ---
