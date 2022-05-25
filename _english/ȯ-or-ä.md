@@ -61,9 +61,9 @@ title: ȯ or ä
 ---
 
 
-* [ä] watch
+* [ä] watch, logic
 * [ä] from, common, wombat, abomination, nomination, compensate
-* [ä] not, slot, hot, plot, body, odd, modern
+* [ä] not, slot, hot, pot, plot, body, odd, modern
 * [ä] drop, shop, chop, hop, lobby, lobster, proper
 
 ---

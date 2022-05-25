@@ -10,5 +10,6 @@ title: Problem Solving Strategies
 * DFS Topological sort  - Topological Sort; DAG Cycle Detection                 [DFS + stack]
 * Kosaraju's            - SCC Meta Graph; It's Topological Sort                 [DFS + stack -> Reverse Edge -> DFS/BFS]
 
+* Ford-Fulkerson        - Maximum Flow;
 
 

@@ -17,5 +17,7 @@ collections:
     output: true
   linear_algebra:
     output: true
+  statistics:
+    output: true
 
 
