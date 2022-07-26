@@ -76,6 +76,10 @@ $\Gamma(1/2)=\sqrt\pi$
 * Beta(α, β)
 * $t_v$
     * $t_\infty$ = Normal
+    - $\frac{\Gamma((v+1)/2)}{\Gamma(v/2)}\frac{1}{(1+x^2/v)^{(v+1)/2}}$
+    - $E(X) = 0$ when $v>1$
+    - $V(X) = v/(v-2)$ when $v>2$
+    - MGF does not exist.
 * Cauchy
     * = $t_1$
 * $χ^2_p$
