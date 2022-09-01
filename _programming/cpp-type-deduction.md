@@ -39,6 +39,19 @@ The type deduced for T is dependent not just on the type of *expr*, but also on 
 * `expr`'s cv is ignored if ParamType is not a pointer/reference.
 * When deducing types for universal reference parameters, lvalue arguments get special treatment.
 
+背后的原因：
+* T 应该是什么，是由ParamType期望的效果来决定的。
+
+* ParamType的reference-ness 主要由函数模板的写法（即ParamType）决定；其次在universal reference情况下看调用者（即expr）是lvalue还是rvalue。
+  * 如果paramType不是引用，那么它期望的是值传递。
+  * 如果paramType是普通引用，那么它期望的是普通引用传递。
+  * 如果paramType是universal reference，那么它期望的是也是引用传递。但引用类型（lvalue or rvalue）由expr决定。
+
+* ParamType的cv 主要由函数模板的写法（即ParamType）决定；其次在调用者（即expr）是引用和指针的情况下，expr的cv不能忽略。
+  * 如果paramType不是引用或指针，那么expr的cv对于函数模板来说没有意义，所以cv被忽略。
+  * 如果paramType是引用或指针，那么expr的cv不能忽略。
+
+
 ## Array Arguments
 
 *Array decays to pointer*
