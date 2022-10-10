@@ -19,5 +19,8 @@ collections:
     output: true
   statistics:
     output: true
+  maths_and_algorithms:
+    output: true
+  
 
 

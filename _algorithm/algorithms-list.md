@@ -29,4 +29,9 @@ title: Problem Solving Strategies
 
 
 * Needleman-Wunsch's    - String (Global) Alignment; Longest Common Subsequence  [ DP ]
-* Smith-Waterman's      - String (Local) Alignment                              
+* Smith-Waterman's      - String (Local) Alignment
+
+
+* Graham's              - Convex Hull                                           [Sort + Scan]
+* Andrew's              - Convex Hull                                           [Sort + Scan]
+

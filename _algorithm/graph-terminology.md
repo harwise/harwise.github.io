@@ -42,32 +42,46 @@ title: Graph Terminology
 
 * [Bipartite Graph] MCBM: Max Cardinality Bipartite Matching
 
-* MVC: Minimum Vertex Cover
-   * 用最少的顶点来覆盖图中的所有边。
-   * NP-Complete.
-   * Tree (via converting to a DAG)
-   * Bipartite Graph (MCBM)
-* MIS: Max Independent Set (of vertices)
-   * NP-Complete.
-   * 两两不相连的顶点的集合。图的最大独立子集指的是让该顶点集合最大。
-   * Bipartite Graph (V - MCBM)
-
-* Minimum Edge Cover
-   * Edge Cover = ceil (no. of vertices / 2)
-   * A smallest edge cover can be found in polynomial time by finding a maximum matching and extending it greedily so that all vertices are covered.
-   * The blossom algorithm finds a maximum-cardinality matching in general (not necessarily bipartite) graphs. It runs in time O(VVE).
-* Maximum-Cardinality Matching
-   * 不具有公共端点的边的集合
-   * 最大匹配也可以由最小边覆盖求得，对于最小边覆盖中每对有公共点的边删去其中一条。
-   * Bipartite Graph (MCBM)
+* Graph Matching
+   * Perfecct Matching: MCM and no vertex is left unmatched.
 
 * MPC: Minimum Path Cover
    * DAG (via converting to a bipartite graph)
 
-* 各关系之间有以下关系：
-   * 对于不存在孤立点的图,    最大匹配    + 最小边覆盖 = 顶点数
-   *                        最大独立集  + 最小顶点覆盖 = 顶点数
-   * 如果图是二分图,         最大匹配    = 最小顶点覆盖
+* Maximum number of independent paths (from s to t)
+   * independent: they don't share any vertex apart from s and t.
+
+* Maximum number of edge-disjoint paths (from s to t)
+   * edge-disjoint: they don't share any edge.
+
+* DP on Tree
+   * Trees are turned into DAGs if we attach one (or more) parameter(s) to each vertex of the tree. DAGs are naturally solvable with DP.
+
+||Minimm Vertex Cover|Maximum Independent Set|Weighted MIS
+|-|-|-|-
+||用顶点来覆盖图中的所有边|两两不相连的顶点的集合|
+||Complement of IS|Complement of VC|
+|Graph|NP-Complete||HARD
+|Tree|DP on Tree, $O(V)$ ||DP, $O(V)$
+|Bipartite|MCBM, $O(VE)$||Max Flow, Dinic $O(VVE)$|
+
+<br>
+
+||Minimum Edge Cover|Maximum Cardinality Matching|Weighted MCM
+|-|-|-|-
+||用边来覆盖图中所有顶点|不具有公共端点的边的集合|
+||对于不存在孤立点的图, 最大匹配+最小边覆盖=顶点数|
+||A smallest edge cover can be found in polynomial time by finding a maximum matching and extending it greedily so that all vertices are covered.|可以由最小边覆盖求得，对于最小边覆盖中每对有公共点的边删去其中一条
+|Graph||(Edmond's) blossom algorithm, $O(VVE)$|DP with bitmask, $O(VV2^V)$
+|Bipartite||MCBM, $O(VE)$|Min Cost (Max) Flow, $O(VVEE)$
+
+<br>
+
+||Minimum Path Cover|
+|-|-|
+||用path来覆盖图中所有顶点|
+|Graph|NP-Complete|
+|DAG|MCBM, $O(VE)$|
 
 
 # Graph Traversal
@@ -214,9 +228,6 @@ title: Graph Terminology
    Biconnected Edge Decompositions is a tree
    * 2ECC -> node
    * bridge -> edge
-
-* Havel–Hakimi algorithm
-   Let ${A=(s,t_{1},...,t_{s},d_{1},...,d_{n})}$ be a finite list of nonnegative integers that is nonincreasing. Let ${A'=(t_{1}-1,...,t_{s}-1,d_{1},...,d_{n})}$ be a second finite list of nonnegative integers that is rearranged to be nonincreasing. List ${A}$ is graphic if and only if list ${A'}$ is graphic.
 
 * Hamiltonian tour
    A cycle in a undirected graph that visits each vertex exactly once.

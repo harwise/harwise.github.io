@@ -55,11 +55,16 @@ title: Problem Solving Strategies
 
 ## 数据分步处理/预处理
 
+* 升维/降维
+   * e.g. 一般graph通过升维转成DAG。
+   * e.g. DP降维
 * 多pass处理
    * e.g. uva 10738
+   * e.g. Kosajaju's algorithm for SCCs finding.
 * 排序/放到合适的数据结构中(实际上就是把数据先处理一遍，保存下来处理后的状态；也可以看作是多pass处理)
 * 对于环状的问题，考虑镜像/复制来拓展原数据转换成线性。
 * 对于多次查询的问题，一次预处理，利于全部查询。
+   * e.g. uva 11643 不考虑边界情况下，(r_a, c_a) <-> (r_b, c_b) 最短距离等于 (r_a + m, c_a + n) <-> (r_b + m, c_b + n)。所以一张 precalculated BFS table 就能适用于所有棋盘位置。
 * 对图结构转换成树结构；
    * DAG -> Dominator Tree
 * 对树结构建立binary lifting table。
@@ -99,7 +104,7 @@ title: Problem Solving Strategies
    - 首先，必须左边没有空隙；否则留着的空隙将来还是要做和现在相同的处理。既然先做后都可以，我们选择先做。
    - 假设有最优解，我们用Greedy的选择去替换最优解，可以知道不会有更坏的结果。
 
-* [uva 481] LIS。DP & Greedy。
+* [uva 481] LIS (Longest Increasing Sequence)。DP & Greedy。
    - Greedy.
       - DP[i] 保存的是，到目前位置j，长度为i的所有subsequence中，末尾值最小的那一个。
       - 假设有其它最优解。用我们DP[i]对应的子序列去替换最优解，可知不会有更坏的结果。
@@ -188,13 +193,19 @@ title: Problem Solving Strategies
 
 # Complexity
 
-$O(n)$         1M - 1G\
-$O(n\log{n})$  200K - 100M\
-$O(n^2)$       1K - 30K\
-$O(n^3)$       100 - 1K\
-$O(n^4)$       30 - 200\
-$O(n^5)$       20 - 70\
-$O(n!)$        10 - 13\
+$O(n)$                        1M - 1G\
+$O(n\log{n})$                 200K - 100M\
 
+$O(n^2)$                      1K - 30K\
+$O(n^3)$                      100 - 1K\
+$O(n^4)$                      30 - 200\
+$O(n^5)$                      20 - 70\
 
+$a(n) = a(n-1) + a(n/2)$      200 - 800\
 
+$fibonacci                    30 - 40\
+$O(2^n)$                      20 - 30\
+$O(10^n)$                     6 - 9\
+
+$O(n!)$                       10 - 13\
+$O(n^n)$                      8 - 10

@@ -22,7 +22,7 @@ title: ȯ or ä
 ---
 
 * [ȯ] water
-* [ä] what, somewhat
+* [ä] what, somewhat, not, slot, hot, pot, plot, body, odd, modern
 
 ---
 
@@ -63,8 +63,7 @@ title: ȯ or ä
 
 * [ä] watch, logic
 * [ä] from, common, wombat, abomination, nomination, compensate
-* [ä] not, slot, hot, pot, plot, body, odd, modern
-* [ä] drop, shop, chop, hop, lobby, lobster, proper
+* [ä] drop, shop, chop, hop, sob, lobby, lobster, proper
 
 ---
 ---
