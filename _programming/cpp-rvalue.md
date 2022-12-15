@@ -9,6 +9,8 @@ title: C++ rvalue
    ```
    void f(Widget&& w);
    ```
+   * `w` (the expression) is a lvalue.
+   * Its type is "rvalue reference to Widget".
 
 * `std::move` performs an unconditional cast to an rvalue. In and of itself, it doesn't mov anything.
 * `std::forward` casts its argument to an rvalue only if that argument is bound to an rvalue.

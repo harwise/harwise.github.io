@@ -11,16 +11,42 @@ title: Problem Solving Strategies
    * 根据input，output的形式，选择合适方法。
       * UVa 10205。直接从output反推回去，直接得到答案，实现上更高效。
       * UVa 10189。从input开始，更新output。因为只有input有值得时候才需要处理，所以更高效。
+      * UVa 10360。输入数据量是20K，每个数据影响到50 * 50个cell；整个网格是1025 * 1025个cell。
+         * 遍历每一个cell，查看被哪些输入影响到: 1025 * 1025 * 50 * 50 ~ 2500M.
+         * 遍历每一个input，更新影响到的cell: 20K * 50 * 50 ~ 50M.
+
+   * 从整体上可以看作：
+      * $M*input=output$
+      * 算法1，$\begin{pmatrix} m1 \\ m2 \\ \dots \end{pmatrix} * In = \begin{pmatrix} out1 \\ out2 \\ \dots \end{pmatrix}$, m1是行向量，In是列向量，**out1是标量**。
+      * 算法2，$\begin{pmatrix} m1 \ m2 \ \dots \end{pmatrix} * \begin{pmatrix} in1 \\ in2 \\ \dots \end{pmatrix} = Out$, m1是列向量，**in1是标量**，Out是列向量。
+      * 标量是展开遍历的量。当其有效值很少时（比如0占绝大多数），意味着展开它计算 ，计算量小。
+
+   * 不只是局限于input,output；处理关系的时候都可以从两个方向考虑。
+      * uva 11902。可以先固定一个点，考虑它能够dominate哪些其它点；也可以固定一个点，考虑哪些点能够dominate它。前一个方式通过DFS处理起来非常直观。
 
 * 从上一步得到当前步的时候，（或反向，或从当前步到下一步）
    * 分析当前状态；
    * 分析上一步的状态；
    * 从上一步到当前步有哪些变化；上一步的信息/结果是不是有助于当前步的分析/计算。
 
+* 从问题的反面/补集思考。
+   * UVA 295. 什么情况下能通过? -> 什么情况下不能通过？-> 任何地方从上到下能连成一堵墙就无法通过。
+
+* Binary-Search。
+   * 只要符合单调特性，就能考虑使用。
+   * 符合条件的最小/最大值，可能就是一种单调（0变到1）。
+   * 猜想一个值，把值代进去，能够快速算出结果，才值得使用。
+   * E.g. UVA 1079.
+
 * DP.
-   * 实际上就是先做complete search，然后提取出overlapping sub-structures。
+   * 可以先考虑complete search。和一般的complete search不同，状态转换是要考虑所有边，而不是随便一条边就行。然后提取出overlapping sub-structures。
       - 如果只考虑第一步的话，可能会忽略一些重要参数。需要多考虑几步；或者进一步从一个中间状态开始分析。
-   * 在Bottom-Up模式中，可以双向考虑，数据向前更新(前进一步能到达哪些位置)，以及数据向后依赖（要依赖之前哪些数据能得到当前位置的值）。两个方向虽然本质是一样的，但某个方向更有助于理清楚逻辑。
+   * 在Bottom-Up模式中，可以双向考虑：遍历input，更新output；遍历output，根据依赖的input计算值。（参见input-output的方向问题）
+      * 两个方向虽然本质是一样的，但某个方向更有助于理清楚逻辑。
+      * 但是向前向后两个方向可能效率不同。
+         * 当input的有效数目不多时，遍历每一个input，向前更新效率更高。因为无效的input值，直接就略过了；
+         * 相反，反方向的话，每一个DP状态都需要计算，即使都是空数据。
+
    * 在Top-Down模式中，貌似天然考虑数据向后依赖。
    * 能用DP做的，是因为它有最优子结构（optimal sub-structures）。所以，只有按照依赖关系更新DP表，才能够减少计算。
       * 确定子结构会被多次用到；DP保证它只计算一次。
@@ -61,6 +87,9 @@ title: Problem Solving Strategies
 * 多pass处理
    * e.g. uva 10738
    * e.g. Kosajaju's algorithm for SCCs finding.
+* 原数据先（多次）变形，变形后的结果统一起来得到结果。
+   * e.g. uva 11902。先去掉某节点v，然后从0点做DFS，得到的是不依赖v的所有节点。
+
 * 排序/放到合适的数据结构中(实际上就是把数据先处理一遍，保存下来处理后的状态；也可以看作是多pass处理)
 * 对于环状的问题，考虑镜像/复制来拓展原数据转换成线性。
 * 对于多次查询的问题，一次预处理，利于全部查询。
@@ -74,7 +103,7 @@ title: Problem Solving Strategies
 ### Greedy
 
 除了Complete Search，其它情况下，尤其是Greedy，都需要证明我们的输出确实是最终目标。
-* 贪心解 >= 最优解 -> 贪心解 == 最优解；（对部分解进行证明。因为贪心本身就认为产生的部分解就是最优的。）
+* 贪心解 >= 最优解 -> 贪心解 == 最优解；（由于具有optimal-substructure性质，基于更小的子结构对当前结构进行证明。）
 * Mathematical Induction. 数学归纳法。$A(0) = C, A(n) > A(n-1)$;
    对于有prune的Complete Serach，和DP，都是一步一步分步骤解决问题的，每一步都是产生了规模更小的子问题。规模大的解依赖于规模小的解。天然就适合用数学归纳法。
 * 反证法。最优解的性质有哪些。假设我们的输出不是最优解，想办法得到矛盾。最优解的性质一般比较明确，从它出发进行推导比较容易。
@@ -83,15 +112,17 @@ title: Problem Solving Strategies
 例子。
 * Coin Change。 {25， 10， 5， 1}。Greedy。先选择25，小于25的时候再选其它的。
    - 只有一枚Coin {1} 的时候，显然成立。
-   - 假设对于{10， 5， 1}成立，是成立的。
-   - 考虑{25，10， 5， 1}的情况。
+   - 假设对于{10， 5， 1}成立，是成立的。- 且能得出结论：1最多有4个；5最多有1个。
+   - 从{10， 5， 1}这个optimal-substructure，我们来考虑{25，10， 5， 1}的情况。
    - 当 sum < 25, 同假设，不必证明。
    - 当 sum >= 25，假设贪心解不是最优解，即最优解中的coin 25少于贪心解的 coin 25数目。
       - 最优解O{10..., 5..., 1...}；贪心解G{25, 10..., 5..., 1...}。
          - {10, 10..., 5..., 1} -> 最优解中的元素可以组合成25，所以O可以被优化成G。 贪心解 > 最优解。
          - {10, 10..., 1...}。1最多只能有4个，所以要想总和大于25，需要{10, 10, 10..., 1...} -> 3个10可以组合成{25, ... 5 ..., 1...}。贪心解 > 最优解。
+   - 得证{25，10，5，1}，且得到结论：1最多有4个；5最多有1个，10最多有2个。
 
 * [uva 410] Station Balance。Greedy。最大和最小配对。
+   - 首先补全数据，添加一些0元素，是元素数目成为2n。这样拿掉A1和A2n，剩下的就是optimal-substructure。
    - {A1, A2, ... An, ... A2n} 。我们证明(A1, A2n)的贪心解 <= 最优解。
    - 令最优解的组合是O{(A1, Aj), (A2n, Ai)}，用它和贪心解G{(A1, A2n), (Ai, Aj)}比较。
    - 令M是平均值，|A1+Ai-M|+|A2n+Aj-M| 比较 |A1+A2n-M|+|Ai+Aj-M|。
@@ -190,6 +221,57 @@ title: Problem Solving Strategies
 * 每个元素都是一个子空间，复杂度 = 合并复杂度 = Complete Serach复杂度。
 * 解空间就是自己的子空间，复杂度 = Complete Serach复杂度。
 * 介于以上极端情况中间的，比如DP，复杂度 = 全部子空间数目 * 合并复杂度。（全部子空间数目指的是递归展开后的全部子空间，比如DP的状态表的每一个元素就是一个子空间。）
+
+## 从图的角度观察解空间
+
+解空间的构造：提取参数成为节点；节点之间的转移。
+比如SPOJ 101，并不是题目中的图节点就是解空间的图节点，题目中的边就是解空间节点间的边。
+* 直接在原图上做搜索的话，是一个搜索问题。但由于带了一个时间参数，多次走到同一个节点的时候，这个节点也不能算作重复计算，导致无法用下面的方法优化，导致搜索的解空间太大。
+* 根据参数构造节点，（原节点，时间）一起作为解空间中的节点。这样的好处是，一个节点访问一次就可以，不必要重复计算（只需要计算这个节点的最优值）。同时也可以看到，由于时间值是单调的，解空间的这个图是一个DAG。不再是一个搜索问题，而是成为一个DP问题。
+
+### A node can be reached via any one of its neighbors. 搜索问题，只要有一条路径能到达就行。
+
+|图类型|DFS|BFS/A*|IDS/IDA*|
+|-----|---|------|---------|
+|Trees with huge amounts of V/E|通过pruning减少运算|内存问题|时间空间的折衷：好的估计函数保证朝target方向DFS展开，increasing depth策略解决内存问题|
+|Graphs with reasonable vertices but too many edges|通过bitmask运算，避免重复vertices访问（标记已访问的vertices），和不必要的edges遍历（一个vertex的edges用bit array表示，LSB：从后往前取值为1的bits）|天然适合SSSP问题，但有内存问题|时间空间的折衷：好的估计函数保证朝target方向DFS展开，increasing depth策略解决内存问题|
+|Graphs with too many vertices and edges|X|天然适合SSSP问题，但有内存问题|时间空间的折衷：好的估计函数保证朝target方向DFS展开，increasing depth策略解决内存问题|
+
+
+### A node relies on all of its neighbors. 比如需要从所有邻接点中找出值最小的那一个（依赖关系说明是DAG）。
+
+|图类型|DFS|BFS|example|
+|-----|---|------|----|
+|DAG: V和E数量都很少|Top-down DP|Bottom-up DP|many|
+|DAG: V的数量很大，但是对最终target来说，依赖的有限|Top-down DP + Balanced BST Memo Table|X|0-1 Knapsack with a large state space|
+
+### 如何构建状态/状态转移。
+
+|输入|构建图|example|
+|-----|----|----|
+|输入图的节点个数$<2^{20}$|输入图节点的组合用bitmask表示，这个bitmask作为新的节点/状态；状态转移由输入图决定。一般生成一个DAG，使用DP计算。|DP-TSP; Minimum Weight Perfect Matching|
+|输入值范围内每一个值作为节点|一般是一个DAG，使用DP计算。|0-1 Knapsack; Subset Sum; Coin Change variants|
+
+
+## 从树结构到线性结构的变换
+
+### 用线性结构表示的树
+
+实际上就是Tree，通过index的关系，形成树结构
+* Binary Heap
+* Fenwick Tree
+* Segment Tree
+
+### 将树通过traversal线性化
+
+会丢失掉原来Tree的一些信息。但实际应用中，这些信息可能是无用，或者可算出来的。
+* LCA问题。在线性结构中使用RMQ。
+* Suffix Tree -> Suffix Array
+   * 线性结构排序。使用suffix之间的重复/关联性，以及counting sort，O(nlogn)就能对所有suffix排序。
+   * string matching。在线性排序结构中，二分法找。O(mlogn)
+   * Longest Common Prefix / Longest Repeated Substring / Longest Common Substring。使用suffix之间的重复/关联性，能够在O(n)计算出来所有suffix的LCP。
+
+
 
 # Complexity
 

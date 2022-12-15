@@ -34,23 +34,21 @@ The type deduced for T is dependent not just on the type of *expr*, but also on 
   1. As before, if *expr*'s type is a reference (**reference, not include pointer**), ignore the reference part.
   2. If, after ignoring *expr*'s reference-ness, *expr* is const/volatile, ignore that, too.
 
-以上是先从`ParamType`的角度看，分为了三类；如果先从`expr`的角度看，规则看起来更清楚：
-* `expr`'s reference-ness is ignored.
-* `expr`'s cv is ignored if ParamType is not a pointer/reference.
-* When deducing types for universal reference parameters, lvalue arguments get special treatment.
+Reference-ness：
+* 写模板的时候通过`ParamType`的写法来决定，需要的参数是不是引用。
+* Universal reference情况下，调用者`expr`是lvalue还是rvalue会被捕获在`T`中。
+* 非universal reference情况下，调用者`expr`中的引用会被完全忽略掉。
 
-背后的原因：
-* T 应该是什么，是由ParamType期望的效果来决定的。
+CV：
+* 写模板的时候通过`ParamType`的写法来决定，需要的CV形式。
+* `ParamType`是引用或指针的时候，`expr`中的CV需要保留。因为要保持原来变量的const-ness。
+* `ParamType`不是引用或指针的时候，`expr`中的CV会被完全忽略掉。因为值传递不关心原来变量的CV。
 
-* ParamType的reference-ness 主要由函数模板的写法（即ParamType）决定；其次在universal reference情况下看调用者（即expr）是lvalue还是rvalue。
-  * 如果paramType不是引用，那么它期望的是值传递。
-  * 如果paramType是普通引用，那么它期望的是普通引用传递。
-  * 如果paramType是universal reference，那么它期望的是也是引用传递。但引用类型（lvalue or rvalue）由expr决定。
-
-* ParamType的cv 主要由函数模板的写法（即ParamType）决定；其次在调用者（即expr）是引用和指针的情况下，expr的cv不能忽略。
-  * 如果paramType不是引用或指针，那么expr的cv对于函数模板来说没有意义，所以cv被忽略。
-  * 如果paramType是引用或指针，那么expr的cv不能忽略。
-
+T的推导：
+* 实际上我们很少关心T具体是什么，我们更多关注的是`ParamType`是什么。（使用`auto`时，这一点体现得更加明显。）
+* `T`应该是什么，是由`ParamType`和`expr`做match来决定的。
+* 除了universal reference的情况，`T`不可能是reference。
+* CV如果没match到`ParamType`上，就会被捕捉到`T`中。
 
 ## Array Arguments
 

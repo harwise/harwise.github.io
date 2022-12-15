@@ -61,7 +61,7 @@ title: Graph Terminology
 |-|-|-|-
 ||用顶点来覆盖图中的所有边|两两不相连的顶点的集合|
 ||Complement of IS|Complement of VC|
-|Graph|NP-Complete||HARD
+|Graph|NP-Complete|Complete Search with bitmask (V<=60)|HARD
 |Tree|DP on Tree, $O(V)$ ||DP, $O(V)$
 |Bipartite|MCBM, $O(VE)$||Max Flow, Dinic $O(VVE)$|
 
