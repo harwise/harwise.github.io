@@ -63,6 +63,7 @@ Meta Programming
 * Tag Dispatch
    * C++17 `if constexpr` supersedes tag dispatch in almost every situation and we're using it in new C++17-and-later code.\
       Note: Tag dispatch works with delegating constructors, whereas if constexpr works only in function bodies.
+
 ```
 template<typename T>
 void logAndAdd(T&& name)
