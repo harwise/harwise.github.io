@@ -118,6 +118,7 @@ public:
 ```
 * SFINAE: Substitution Failure Is Not A Error.
    * 而使用enable_if<>就是实现SFINAE最直接的方式。
+
    ```
    template<typename T>
    typename std::enable_if<(sizeof(T) > 4)>::type
@@ -155,10 +156,12 @@ Statement & Expression
    Expression: Something which evaluates to a value. Example: `1+2/x`\
    Statement: A line of code which does something. Example: `GOTO 100`\
    In C, every syntactic expression can be a made into a statement just by tacking a semicolon along the end:
+
    ```
    1 + 2 / x;
    ```
    Similarly, in C, an expression can have side-effects—it can change something.
+
    ```
    1 + 2 / callfunc(12);
    ```
@@ -230,6 +233,7 @@ Member Function
 ---------------
 
 * Reference Qualifiers
+
    ```
    class Widget {
       public:
@@ -323,6 +327,7 @@ Type
    * In many context, an array decays into a pointer to its first element.
       * e.g. An array is passed to a template taking a by-value parameter.
       * But NOT when the parameters are references to arrays.
+      
       ```
       template<typename T, std::size_t N>
       constexpr std::size_t arraySize(T (&)[N]) noexpect
