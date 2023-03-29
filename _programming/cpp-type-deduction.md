@@ -34,6 +34,10 @@ The type deduced for T is dependent not just on the type of *expr*, but also on 
   1. As before, if *expr*'s type is a reference (**reference, not include pointer**), ignore the reference part.
   2. If, after ignoring *expr*'s reference-ness, *expr* is const/volatile, ignore that, too.
 
+Type Conversions Overview:
+* When declaring call parameters by reference, even trivial conversions do not apply to type deduction. Two arguments declared with the same template parameter T must match exactly.
+* When declaring call parameters by value, only trivial conversions that decay are supported: Qualifications with const or volatile are ignored, references convert to the referenced type, and raw arrays or functions convert to the corresponding pointer type. For two arguments declared with the same template parameter T the decayed types must match.
+
 Reference-ness：
 * 写模板的时候通过`ParamType`的写法来决定，需要的参数是不是引用。
 * Universal reference情况下，调用者`expr`是lvalue还是rvalue会被捕获在`T`中。

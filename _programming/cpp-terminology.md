@@ -261,6 +261,14 @@ Member Function
       * The move ctor.
       * The move assignment operator.
 
+* The Rule of Three/Five/Zero
+   * If you define or =delete any default operation, define or =delete them all.
+
+* Slicing
+   * A polymorphic class should suppress public copy/move.
+   * A polymorphic class is a class that defines or inherits at least one virtual function. It is likely that it will be used as a base class for other derived classes with polymorphic behavior. If it is accidentally passed by value, with the implicitly generated copy constructor and assignment, we risk slicing: only the base portion of a derived object will be copied, and the polymorphic behavior will be corrupted.
+   * For making deep copies of polymorphic classes prefer a virtual clone function instead of public copy construction/assignment.
+
 ---
 
 Structure & Layout
@@ -354,6 +362,7 @@ Misc
 * CRTP
    * The Curiously Recurring Template Pattern
    * A derived class inherits from a base class templatized on the derived class.
+   * CRTP是C++模板编程时的一种惯用法（idiom）：把派生类作为基类的模板参数。更一般地被称作F-bound polymorphism。
 
 * Pimpl
    * pointer to implementation
