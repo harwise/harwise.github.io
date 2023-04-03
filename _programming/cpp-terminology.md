@@ -20,8 +20,15 @@ Initialization & Constructor
 
 * Default constructors\
    A constructor that can be called without having to provide any arguments, irrespective of whether the constructor is auto-generated or user-defined. Note that a constructor with formal parameters can still be called without arguments if default arguments were provided in the constructor's definition.
+   
+   * A trivial default constructor is a constructor that performs no action. All data types compatible with the C language (POD types) are trivially default-constructible.
 
-* Uniform initialization (Braced initialization)
+* Zero-initialization\
+   * Variables with static or thread-local (since C++11) storage duration.
+   * **value-initialization** of types that have no constructors (e.g. POD).
+   * When an array of any character type is initialized with a string literal that is too short, the remainder of the array is zero-initialized.
+
+* Uniform initialization: Braced initialization.
 
 ---
 
@@ -116,7 +123,7 @@ public:
    }
 };   
 ```
-* SFINAE: Substitution Failure Is Not A Error.
+* SFINAE: Substitution Failure Is Not An Error.
    * 而使用enable_if<>就是实现SFINAE最直接的方式。
 
    ```
@@ -155,7 +162,7 @@ Statement & Expression
 
    Expression: Something which evaluates to a value. Example: `1+2/x`\
    Statement: A line of code which does something. Example: `GOTO 100`\
-   In C, every syntactic expression can be a made into a statement just by tacking a semicolon along the end:
+   In C, every syntactic expression can be made into a statement just by tacking a semicolon along the end:
 
    ```
    1 + 2 / x;
@@ -248,7 +255,7 @@ Member Function
    ```
 
 * Contextual Keywords
-   * They are reversed only in certain contexts.
+   * They are reserved only in certain contexts.
    * `override`
    * `final`
 
@@ -332,7 +339,8 @@ Type
    * Or Omitted, in which case it is int for scoped enumerations or an implementation-defined integral type capable of representing all values of the enum (for unscoped enumerations)
 
 * Decay
-   * In many context, an array decays into a pointer to its first element.
+   * C-style arrays are very basic constructs which are **not assignable, copyable or referenceable** in the way built-ins or user defined types are. 
+      * In many context, an array decays into a pointer to its first element.
       * e.g. An array is passed to a template taking a by-value parameter.
       * But NOT when the parameters are references to arrays.
       
@@ -359,16 +367,13 @@ Misc
 * Raw Pointers
 * Smart Pointers
 
-* CRTP
-   * The Curiously Recurring Template Pattern
+* CRTP: the Curiously Recurring Template Pattern
    * A derived class inherits from a base class templatized on the derived class.
    * CRTP是C++模板编程时的一种惯用法（idiom）：把派生类作为基类的模板参数。更一般地被称作F-bound polymorphism。
 
-* Pimpl
-   * pointer to implementation
+* Pimpl: pointer to implementation
 
-* RVO
-   * Return Value Optimization
+* RVO: Return Value Optimization
 
 * SSO: small string optimization
 
