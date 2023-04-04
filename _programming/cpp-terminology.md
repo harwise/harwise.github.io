@@ -15,8 +15,8 @@ Initialization & Constructor
 
    * static and thread-local objects get zero initialized.
    * if T is an array type: every element of the array is default-initialized.
-   * non-POD: one of the default constructors is called.
-   * otherwise, no initialization is performed.
+   * non-POD(应该是non-trivial？因为trivial就没有ctor): one of the default constructors is called.
+   * otherwise, no initialization is performed. (用MSVC测试，只要是trivial的类型，即使不是POD，也符合这一条。)
 
 * Default constructors\
    A constructor that can be called without having to provide any arguments, irrespective of whether the constructor is auto-generated or user-defined. Note that a constructor with formal parameters can still be called without arguments if default arguments were provided in the constructor's definition.
@@ -27,8 +27,6 @@ Initialization & Constructor
    * Variables with static or thread-local (since C++11) storage duration.
    * **value-initialization** of types that have no constructors (e.g. POD).
    * When an array of any character type is initialized with a string literal that is too short, the remainder of the array is zero-initialized.
-
-* Uniform initialization: Braced initialization.
 
 ---
 
@@ -41,6 +39,11 @@ Initialization & Constructor
    * explicit constructors are not permitted to use.
 
 Copy-initialization is less permissive than direct-initialization: explicit constructors are not converting constructors and are not considered for copy-initialization.
+
+* Uniform initialization: Braced initialization.
+   * Brace-initialization does not allow narrowing conversion.
+   * direct-list-initialization
+   * copy-list-initialization   
 
 ---
 
@@ -205,7 +208,7 @@ Function
    * Can be called regardless of the state of the program.
    * Imposes no constraints on the arguments the callers pass it.
 * Functions with Narrow Contracts
-   * If a precondition is violated, results are undefined.
+   * If a precondition is violated, results are **undefined**.
 
 Wide contract functions have well-defined behavior for all possible inputs, while narrow contracts mean that the functions can only be called when certain preconditions are met.   
 
@@ -284,7 +287,7 @@ Structure & Layout
 * POD
    * Trivial types
       * No virtual.
-      * When a class or struct in C++ has compiler-provided or explicitly defaulted special member functions, then it is a trivial type. It occupies a contiguous memory area.
+      * When a class or struct in C++ has compiler-provided or explicitly defaulted special member functions (基类也需要考虑进去), then it is a trivial type. It occupies a contiguous memory area.
       * In C++, the compiler is free to choose how to order members in this situation.
       * You **can memcopy** such objects but you cannot reliably consume them from a C program.
    * Standard layout types
