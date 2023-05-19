@@ -41,7 +41,12 @@ $\Gamma(1/2)=\sqrt\pi$
     - MGF = $pe^t/(1-(1-p)e^t)$ with $t<-log(1-p)$
 * Poisson(λ)
     - counts of rare events like radioactive decay and traffic accidents;
+        - 假设事件之间的时间不受先前事件之间的时间的影响（即它们是独立的），那么每单位时间的事件数遵循泊松分布.
+        - $\lambda$ 是$P(x=k)$分布函数的均值.
     - can be deduced from Binomial.
+        - 已知一段时间内的时间一个随机变量的期望。
+        - 把此随机变量看作是一个Bernoulli随机变量的叠加。
+        - 把此时间段分割成n段，于是整体上可以看作一个Binomial随机变量。让n趋向于无穷。
     * X1 + X2 ~ Poisson(λ1 + λ2)
     - $\lambda^xe^{-\lambda}/x!$
     - $E(X) = \lambda$
@@ -61,10 +66,13 @@ $\Gamma(1/2)=\sqrt\pi$
     - MGF = $exp\{\mu t+\frac{\sigma^2t^2}{2}\}$
 * Exp(β)
     - the lifetimes of electronic components and the waiting times between rare events;
+        - 如果每单位时间的事件数服从泊松分布，则事件之间的时间量服从指数分布。
     * = Gamma(1, β)
     * X1 + X2 ~ Gamma(2, β)
     - $\frac{e^{-x/\beta}}{\beta}$
+        - 更常见的写法 $Exp(\lambda) = \lambda e^{-\lambda x}$。这时 $\lambda$ 的含义就和泊松分布的 $\lambda$ 的含义相同了，即单位时间内某事件发生的平均次数。
     - $E(X) = \beta$
+        - $E(X) = \frac{1}{\lambda}$
     - $V(X) = \beta^2$
     - MGF = $\frac{1}{1-\beta t}$ with $t<1/\beta$
 * Gamma(α, β)
