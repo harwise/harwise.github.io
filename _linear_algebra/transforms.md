@@ -83,7 +83,7 @@ title: Linear Algebra Transforms
 |$S^*$ is isometry.|
 |$S$ is invertible and $S^{-1}=S^*$|
 |Over C, diagonalizable with respect to an orthogonal basis (eigenvectors), and eigenvalues have absolute value 1.|
-|Over $R$, isometry = block diagonal matrix such that each block is a 1-by-1 matrix or a 2-by-2 matrix of the form $\begin{pmatrix}cos{\theta}&-sin{\theta} \\ sin{\theta}&cos{\theta}\end{pmatrix}$ with $\theta \isin (0, \pi)$.|
+|Over $R$, isometry = block diagonal matrix such that each block is a 1-by-1 matrix or a 2-by-2 matrix of the form $$ \begin{pmatrix} cos{\theta} & -sin{\theta} \\ sin{\theta} & cos{\theta} \end{pmatrix} $$ with $$\theta \isin (0, \pi) $$.|
 
 <br><br>
 
