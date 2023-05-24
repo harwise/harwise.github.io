@@ -11,6 +11,17 @@ for key, value in zip(region, university_count):
 
 cnt = Counter(data) # 计数每个值出现的次数
 
+def list_files(dir):
+    r = []
+    for root, dirs, files in os.walk(dir):
+        for name in files:
+            r.append(os.path.join(root, name))
+    return r
+```
+
+# ipython
+```
+display
 ```
 
 # numpy
@@ -41,6 +52,10 @@ data_df.describe()          # 每列特征的简单统计信息
 data_df = data_df.drop(columns='gameId')    # 舍去对局标号列
 data_df = data_df.dropna()  # 舍去包含 NaN 的 row
 
+mean_df = data_df.groupby('institution').mean()  # 按学校聚合并对聚合的列取平均
+top_df = mean_df.sort_values(by='score', ascending=False)   # sort
+f = data_df[feature_cols + ['score']].corr()
+
 # 数据离散化
 # if (len(df[c].unique()) <= 5):
 if (df[c].value_counts().count() <= 5):
@@ -52,6 +67,10 @@ discrete_df[c] = pd.qcut(df[c], q=5, labels=False, duplicates='drop')
 all_y = discrete_df['blueWins'].values # 所有标签数据
 feature_names = discrete_df.columns[1:] # 所有特征的名称
 all_x = discrete_df[feature_names].values # 所有原始特征值，pandas的DataFrame.values取出为numpy的array矩阵
+
+x = top_df['score'].values  # 综合得分列表
+y = top_df.index.values  # 学校名称列表
+
 ```
 
 # scipy.stats
@@ -64,6 +83,29 @@ from scipy.stats import norm, cauchy
 
 ```
 import matplotlib.pyplot as plt
+```
+
+# seaborn
+
+That is, it uses Matplotlib “under the hood”, but it offers the user a much simpler API (set of commands) that enable us to generate a variety of great-looking plots that are particularly useful in data science. 
+
+```
+import seaborn as sns  # 作图
+
+sns.set_theme()
+
+sns.barplot(x=x, y=y, orient='h', palette="Blues_d")  # 画条形图
+plt.xlim(75, 101)  # 限制 x 轴范围
+plt.show()
+
+sns.pairplot(data_df[feature_cols + ['score']], height=3, diag_kind="kde")
+plt.show()
+
+sns.heatmap(f, annot=True, cmap=plt.get_cmap('binary'))
+plt.show()
+
+sns.regplot(data_df['quality_of_faculty'], data_df['score'], marker="+")
+plt.show()
 ```
 
 # sklearn

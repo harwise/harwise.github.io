@@ -7,10 +7,11 @@ title: Linear Transforms Eigen Values
 
 * Invariant subspace with dimension 1.
 * Invariant subspace space U 的意义在于，能够将 T 在 V 上的作用分解为两项：
-    * 作用在 $U$ 上.  
-        $T|_U \isin L(U)$ restricition operator. $T|U(u) = Tu$
+    * 作用在 $U$ 上. 
+        $T|_U \isin L(U)$ restricition operator. $T|_{U(u)} = Tu$
     * 作用在 quotient space $V/U$ 上 ($dimV/U=dimV-dimU$).  
         $T/U \isin L(V/U)$ qutient operator. $(T/U)(v+U) = Tv + U$
+
 ---
 
 * $T-\lambda I$ is not injective/surjective/invertible.
@@ -42,7 +43,7 @@ title: Linear Transforms Eigen Values
     * 在 C 上总能成功，因为总有eigenvector.
     * 在 R 上，如果eigenvalues are real，也总能成功。
 * $G(\lambda_j,T)$ is invariant under T. （A nilpotent + a scalar multiple of the identity.）
-* $(T-\lambda_jI)|_{G(\lambda_j,T)}$ is nilpotent.
+* $ (T - \lambda_j I) | _{G( \lambda_j , T)} $ is nilpotent.
 * For a nilpotent, there exists a basis: $N^{m_1}v_1,\dots,Nv_1,v_1,\dots,N^{m_n}v_n,\dots,Nv_n,v_n$. 所以有Jordan Form。
     * On C, Jordan Form always exists.
     * On R, Jordan Form exists if the corresponding eigenvalue $\lambda_i$ is real.)
@@ -52,7 +53,7 @@ title: Linear Transforms Eigen Values
 * There exists a real invertible matrix P such that $P^{-1}AP = J$ is a real block diagonal matrix.
     * Each block is a real Jordan block.
         * A real Jordan block is either identical to a complex Jordan block (if the corresponding eigenvalue $\lambda_i$ is real).
-        * Or is a block matrix itself, consisting of 2×2 blocks (for non-real eigenvalue $\lambda _{i}=a_{i}+ib_{i}$ with given algebraic multiplicity) of the form $C_i=\begin{pmatrix}a_i&-b_i\\ b_i&a_i\end{pmatrix}$ and describe multiplication by $\lambda_i$ in the complex plane. $J_i = \begin{pmatrix}C_i&I&0&0\\0&C_i&I&0\\0&0&C_i&I\\0&0&0&C_i\end{pmatrix}$. Hence in this representation the matrix dimensions are larger than the complex Jordan form.
+        * Or is a block matrix itself, consisting of 2×2 blocks (for non-real eigenvalue $$\lambda _{i}=a_{i}+ib_{i}$$ with given algebraic multiplicity) of the form $$C_i=\begin{pmatrix}a_i&-b_i\\ b_i&a_i\end{pmatrix}$$ and describe multiplication by $$\lambda_i$$ in the complex plane. $$J_i = \begin{pmatrix}C_i&I&0&0\\0&C_i&I&0\\0&0&C_i&I\\0&0&0&C_i\end{pmatrix}$$. Hence in this representation the matrix dimensions are larger than the complex Jordan form.
 
 ---
 
@@ -74,15 +75,15 @@ title: Linear Transforms Eigen Values
 
 ---
 
-* normal: $TT^*=T^*T$
+* normal: $$TT^*=T^*T$$
 * normal: $\Vert Tv \Vert = \Vert T^*v \Vert$
     * $T$ and $T^*$ have the same eigenvectors and $T^*$ has eigenvalue $\bar{\lambda}$
     * Eigenvectors corresponding to distinct eigenvalues are orthogonal.
     * Normal <=> (Over C, diagonal matrix with respect to some orthogoal basis.)
-    * Normal <=> (Over R, block diagonal matrix with respect to some orthogoal basis. Each block is 1x1, or 2x2 $\begin{pmatrix}a&-b\\b&a\end{pmatrix}$ with b > 0)
+    * Normal <=> (Over R, block diagonal matrix with respect to some orthogoal basis. Each block is 1x1, or 2x2 $$\begin{pmatrix}a&-b\\b&a\end{pmatrix}$$ with b > 0)
     * S is called isometry/orthogonal if $\Vert Sv \Vert = \Vert v \Vert$
-        * Invertible and $S^{-1}=S^*$
-        * $\begin{pmatrix}cos{\theta}&-sin{\theta}\\ sin{\theta}&cos{\theta}\end{pmatrix}$ with $\theta \isin (0, \pi)$
+        * <=> Invertible and $S^{-1}=S^*$
+        * <=> $$\begin{pmatrix}cos{\theta}&-sin{\theta}\\ sin{\theta}&cos{\theta}\end{pmatrix}$$ with $\theta \isin (0, \pi)$
 
 ---
 
