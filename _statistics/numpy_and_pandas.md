@@ -9,6 +9,7 @@ title: numpy and pandas
 ```
 for key, value in zip(region, university_count):
 
+from collections import Counter
 cnt = Counter(data) # 计数每个值出现的次数
 
 def list_files(dir):
@@ -113,7 +114,9 @@ plt.show()
 ```
 from sklearn.model_selection import train_test_split, cross_validate # 划分数据集函数
 
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer # 提取文本特征向量的类
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer # 提取文本特征向量的类, 其中TfidfVectorizer可能等价于：CountVectorizer + TfidTransformer
+from scipy.sparse import hstack
+x_train = hstack([x_train_text, x_train_h1 * f_repeat]) # 拼接稀疏向量，也可在此对特征加权
 
 from sklearn.preprocessing import MinMaxScaler # normalizing
 
@@ -122,6 +125,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 from sklearn import linear_model
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB, ComplementNB # 三种朴素贝叶斯算法，差别在于估计p(x|y)的方式
+
+from sklearn.preprocessing import LabelBinarizer    # one-hot
+
+import sklearn.cluster as skclst
 
 
 # 划分训练集和测试集
@@ -136,5 +143,9 @@ test_acc = accuracy_score(p_test, y_test) # 将测试预测值与测试集标签
 # 交叉验证: 需要有 fit / predict / get_params / set_params 方法
 
 cv_result = skms.cross_validate(NB, X_train_vec, y_train_binary, scoring=("accuracy", "precision", "recall"), cv=5) # 5折交叉验证   
+
+# 多个参数网格化搜索最优
+
+sklearn.model_selection.GridSearchCV
 
 ```

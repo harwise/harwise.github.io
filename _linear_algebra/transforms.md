@@ -95,268 +95,85 @@ title: Linear Algebra Transforms
 
 注意到这两者是相等的：坐标轴向量和行向量做内积 = 坐标轴向量被变换到新坐标系（以列向量为基）下的坐标值。
 
-
-## 一个特征值也没有
-
-On C: 不可能没有特征值。因为多项式等式总能在C上求得解。
-
-On R: 比如二维旋转矩阵。
-$$
-\begin{pmatrix}
-0.866 & -0.5 \\
-0.5 & 0.866
-\end{pmatrix}
-$$
-
-### **SVD**
+## 2D下的各种变换
 
 $$
 \begin{pmatrix}
-0.866 & -0.5 \\
-0.5 & 0.866
-\end{pmatrix} =
-
-\begin{pmatrix}
--1 & 0 \\
-0 & 1
-\end{pmatrix}
-
-\begin{pmatrix}
-1 & 0 \\
-0 & 1
-\end{pmatrix}
-
-\begin{pmatrix}
--0.866 & 0.5 \\
-0.5 & 0.866
+2 & 1 \\
+1 & 2
 \end{pmatrix}
 $$
 
-## 有重复特征值，但对应特征向量只有一个
+对称/self-adjoint/Hermitian
 
-比如
+Eigen vectors 正交
+
+对角化：$SJS^{-1}$ 两边矩阵不但互逆，而且S的基，即Eigenvectors互相正交。
+
+此时SVD分解，和对角化基本一致。也是两边的矩阵不但基正交，而且能够互为逆矩阵。(把对角化两边的正交基，调整为单位长度即可)
+
+逆时针转45度；缩放；顺时针转45度。
+
+---
+
+在上面矩阵的基础上，把其中一个轴拉长
 $$
 \begin{pmatrix}
-1 & 1 \\
-0 & 1
+4 & 1 \\
+2 & 2
 \end{pmatrix}
 $$
 
-### **Jordan Dcomposition**
+Eigen vectors 不正交
 
+对角化：$SJS^{-1}$ 两边矩阵只是互逆，不是正交矩阵。
+
+SVD：两边矩阵虽然是正交矩阵，但不互为逆矩阵。
+
+这个矩阵也可以分解为
 $$
 \begin{pmatrix}
-0.866 & -0.5 \\
-0.5 & 0.866
-\end{pmatrix} =
-
-\begin{pmatrix}
-1 & 0 \\
-0 & 1
+4 & 1 \\
+2 & 2
 \end{pmatrix}
-
+=
 \begin{pmatrix}
-1 & 1 \\
-0 & 1
+2 & 1 \\
+1 & 2
 \end{pmatrix}
-
-\begin{pmatrix}
-1 & 0 \\
-0 & 1
-\end{pmatrix}
-$$
-
-前后是正交矩阵且互逆，但中间不是对角阵
-
-### **SVD**
-
-$$
-\begin{pmatrix}
-1 & 1 \\
-0 & 1
-\end{pmatrix} =
-
-\begin{pmatrix}
-0.851 & -0.526 \\
-0.526 & 0.851
-\end{pmatrix}
-
-\begin{pmatrix}
-1.618 & 0 \\
-0 & 0.618
-\end{pmatrix}
-
-\begin{pmatrix}
-0.526 & 0.851 \\
--0.851 & 0.526
-\end{pmatrix}
-$$
-
-SVD 的前后两个正交基并不互逆。
-
-## 不同特征值，不同特征向量，但是特征向量不正交
-
-比如
-$$
-\begin{pmatrix}
-1 & 2 \\
-0 & 1
-\end{pmatrix}
-$$
-
-### **Jordan Dcomposition**
-
-$$
-\begin{pmatrix}
-1 & 2 \\
-0 & 1
-\end{pmatrix} =
-
-\begin{pmatrix}
-1 & 0 \\
-0 & 1/2
-\end{pmatrix}
-
-\begin{pmatrix}
-1 & 1 \\
-0 & 1
-\end{pmatrix}
-
-\begin{pmatrix}
-1 & 0 \\
-0 & 2
-\end{pmatrix}
-$$
-
-前后是正交矩阵且互逆，但中间不是对角阵
-
-### **能够使用非正交矩阵和对角阵来分解吗？**
-
-$$
 \begin{pmatrix}
 2 & 0 \\
-1 & 1
+0 & 1
 \end{pmatrix}
-\\
-\lambda_1 = 1, v_1 = (0, 1)^T
-\\
-\lambda_1 = 2, v_1 = (1, 1)^T
 $$
+也就是说可以分解成$SJS^{-1}M_{scale}$.后两项可以结合，但是得到的矩阵不是正交矩阵（虽然各个基是正交的，但模不是1）。
 
-虽然可以得到如下结果
+---
 
+如果整体旋转一下，而不是改变其中一个轴的长度，比如
 $$
-\begin{pmatrix}
-2 & 0 \\
-1 & 1
-\end{pmatrix} =
-
-\begin{pmatrix}
--2 & 1 \\
-0 & 1/2
-\end{pmatrix}
-
 \begin{pmatrix}
 1 & 0 \\
-0 & 2
-\end{pmatrix}
-
-\begin{pmatrix}
-0 & 1 \\
-1 & 1
+1 & \sqrt 2
 \end{pmatrix}
 $$
 
-其中最右边矩阵是来自于两个非正交基，中间矩阵来自于特征值。但是左边矩阵并不是右边矩阵的逆 （实际上我不知道如何用直观的方法求得它）。- 这种分解可能没有实际用处，它说明了正交矩阵的重要性。
+各个分解和上面类似。
 
-### **SVD**
+---
 
-$$
-\begin{pmatrix}
-1 & 2 \\
-0 & 1
-\end{pmatrix} =
-
-\begin{pmatrix}
-0.924 & -0.383 \\
-0.383 & 0.924
-\end{pmatrix}
-
-\begin{pmatrix}
-2.414 & 0 \\
-0 & 0.414
-\end{pmatrix}
-
-\begin{pmatrix}
-0.383 & 0.924 \\
--0.924 & 0.383
-\end{pmatrix}
-$$
-
-SVD 的前后两个正交基并不互逆。
-
-## 特征向量正交
-
-On C, normal operator
-
-on R, self-adjoint operator
-
-比如
-$$
-\begin{pmatrix}
-1 & 2 \\
-2 & 1
-\end{pmatrix}
-$$
-
-### **Jordan Dcomposition** (此时能够对角化)
+但并不是所有矩阵都能够这样考虑，比如
 
 $$
 \begin{pmatrix}
-1 & 2 \\
-2 & 1
-\end{pmatrix} =
-
-\begin{pmatrix}
--1 & 1 \\
-1 & 1
-\end{pmatrix}
-
-\begin{pmatrix}
--1 & 0 \\
-0 & 3
-\end{pmatrix}
-
-\begin{pmatrix}
--1/2 & 1/2 \\
-1/2 & 1/2
-\end{pmatrix}
-$$
-
-前后是正交矩阵且互逆，而且中间是对角阵
-
-### **SVD**
-
-$$
-\begin{pmatrix}
-1 & 2 \\
-1 & 1
-\end{pmatrix} =
-
-\begin{pmatrix}
-0.707 & 0.707 \\
-0.707 & -0.707
-\end{pmatrix}
-
-\begin{pmatrix}
-3 & 0 \\
+1 & 1 \\
 0 & 1
 \end{pmatrix}
-
-\begin{pmatrix}
-0.707 & 0.707 \\
--0.707 & 0.707
-\end{pmatrix}
 $$
 
-SVD 的前后两个正交基并不互逆。
+只有一个特征值，无法做对角化。
+
+还可能一个特征值也没有，比如旋转矩阵，无法做对角化。
+
+但是SVD总是可以的。
+
