@@ -1,5 +1,14 @@
 # Linux
 
+## 从 Console 启动
+
+* ./prog
+* ./prog &
+  后台运行，不阻塞当前终端
+  输出仍然到当前终端
+
+## trace
+
 <span style="color:red">yum install ltrace</span>
 
 * ltrace targetProc
@@ -12,7 +21,15 @@
 
 # Windows
 
-## ltrace
+## 从 CMD 启动
+
+* start /B .\prog.exe
+  后台运行
+  输出仍然到当前终端
+
+## trace
+
+### ltrace
 
 * Dependency Walker
   * 使用 Profile 功能运行程序
@@ -21,7 +38,7 @@
   * 如需跟踪所有函数，可使用 Trace 功能
 * API Monitor
 
-## strace
+### strace
 
 * Process Monitor (ProcMon)
 * WinDbg
