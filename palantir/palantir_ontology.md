@@ -1,78 +1,119 @@
-# 本体论（Ontology）/ 本体建模
+# 本体论（Ontology）/ 本体建模  
+Ontology 的原始字面意思是 “关于存在的研究” 或 “存在之学”。  
+**The original literal meaning of ontology is "the study of existence" or "the science of being."**
 
-ontology 的原始字面意思是 “关于存在的研究” 或 “存在之学”。
+---
 
+## Palantir 对 Ontology 的解释  
+https://www.youtube.com/watch?v=YDAxITCNcko  
 
-## Palantir 对 Ontology 的解释
+Nouns and verbs that make up your business.  
+**构成你业务的名词和动词。**
 
-https://www.youtube.com/watch?v=YDAxITCNcko
+E.g. A manufactury.  
+**例如：一个制造业公司。**
 
-Nouns and verbs that make up you business.
+* Plants  
+  **工厂**  
+* Warehouses  
+  **仓库**  
+* Products  
+  **产品**  
+* Customers  
+  **客户**
 
-E.g. A manufactury.
+* Supply  
+  **供应**  
+* Ship  
+  **运输**
 
-* Plants
-* Warehouses
-* Products
-* Customers
+These words reflect the ground truth about how **your business** operates.  
+**这些词反映了关于你的业务如何运作的基本事实。**
 
-* Supply
-* Ship
+Complex inter-connected relationship  
+**复杂的互相关联关系**
 
-These words reflects the ground truth about how **your business** operates.
+Model this into an ontology - model how your business is actually operating.  
+**将这些建模为本体——建模你的业务实际是如何运作的。**
 
-Complex inter-connected relationship
+---
 
-Model this into an ontology - model how your business is actually operating.
+### Data  
+The current state of my business  
+**我业务的当前状态**
 
-### Data
+300 out-of-box connectors  
+**300 个开箱即用的连接器**  
+* enterprise systems  
+  **企业系统**  
+* Snowflake, Databricks...  
+  **Snowflake、Databricks 等**  
+* enterprise data lakes  
+  **企业数据湖**
 
-The current state of my business
+---
 
-300 out-of-box connectors
-* enterprise systems
-* Snowflake, Databricks...
-* enterprise data lakes
+### Logic  
+How do I think about the data  
+**我如何理解这些数据**
 
-### Logic
+Integrate with all different tools (model/logic)  
+**与各种不同的工具集成（模型/逻辑）**  
+* rules-based logic  
+  **基于规则的逻辑**  
+* ML models  
+  **机器学习模型**  
+* forecasts  
+  **预测**  
+* third-party optimizers  
+  **第三方优化器**
 
-How do I think about the data
+Model them into the semantic object. e.g.  
+**将它们建模为语义对象。例如：**  
+* How a warehouse works.  
+  **仓库是如何运作的。**  
+* The logic how to think about that warehouse.  
+  **关于如何理解该仓库的逻辑。**
 
-Integrate with all different tools (model/logic)
-* rules-based logic
-* ML models
-* forecasts
-* third-party optimizers
+---
 
-model them into the semantic object. e.g.
-* How a warehouse works.
-* The logic how to think about that warehouse.
+### Actions  
+Actions I can take to affect the real world  
+**我可以采取的影响现实世界的行动**
 
-### Actions
+* Connect to ERP systems  
+  **连接到 ERP 系统**
 
-Actions I can take to affect the real world
+Drive back those actions into the enterprise.  
+**将这些行动反馈到企业中。**
 
-* 连接到 ERP 系统
-* ...
+---
 
-Drive back those actions into the enterprise.
+## Ontology 独特之处  
+The actual digital twin of how my business is operating.  
+**业务运作的真实数字孪生。**
 
+The ontology drives decisions in your business.  
+**本体驱动你的业务决策。**
 
+The goal: AI and humans working together on the ontology.  
+**目标：AI 与人类在本体上协同工作。**
 
-## Ontology 独特之处
+The goal overtime is to automate more and more of your business.  
+**长期目标是逐步自动化更多的业务。**
 
-The actual digital twin of how my business is operating.
+---
 
-The ontology drives decisions in your business.
-the goal: AI and humans working together on the ontology.
-the goal overtime is to automate more and more of your business.
+以上描述过于 high level 和抽象，可以通过实际的 demo 来结合理解。
 
+---
 
-## 和其它 AI 模型的比较
+## 为什么本体不等同于数据模型，分类法，或知识图谱。
+
+本体建模：**语义数据模型，定义领域内的概念、属性、关系及逻辑。规则和定义。可支持推理、语义一致性、跨系统理解。**
 
 https://www.bilibili.com/video/BV1fKUjBAEz2/?spm_id_from=333.788.recommend_more_video.0
 
-为什么本体不等同于数据模型，分类法，或知识图谱。
 
 对数据分析/数据架构理解的不同阶段
 
