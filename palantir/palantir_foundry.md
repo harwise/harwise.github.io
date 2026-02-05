@@ -1,7 +1,8 @@
 # foundry - demo
 
-https://www.bilibili.com/video/BV1uDqVBjED8/?spm_id_from=333.337.search-card.all.click
+https://www.bilibili.com/video/BV1uDqVBjED8
 
+https://www.bilibili.com/video/BV1fxU4BFESU
 
 **企业操作系统**
 
@@ -20,6 +21,17 @@ https://www.bilibili.com/video/BV1uDqVBjED8/?spm_id_from=333.337.search-card.all
 
 
 每个节点对数据进行 refining，cleaning，joining，applying business logic
+
+
+**例子-和工厂相关联的具体数据：**
+
+制造业企业，为了完成了解一个工厂，可能的数据有：
+
+![alt text](image-20.png)
+
+
+
+
 
 
 **Data Versioning**
@@ -64,7 +76,9 @@ Data Integration 之后，业务/管理人员需要参与进来，和 IT 人员�
 基于定义好的 Objects，可以做各种图表，timeline，map view 等展现形式。略...
 
 
+**例子-制造业企业的 Objects 有：**
 
+![alt text](image-21.png)
 
 ---
 
@@ -92,6 +106,20 @@ Model Comparisons
 输入来自于 Objects；将输出传给 Objects
 
 
+**例子-Supply Chain Control Tower：**
+
+* 模型 1：生产和定价模型
+  * 数据：原材料
+  * 数据：工厂产能数据
+  * 根据价格变动 -> 估计产量和客户需求
+
+用户利用此模型决定：对于一批原材料，决定要生产产品的数量
+
+* 模型 2：季节性需求模型
+
+模型 1 和 2 结合 (chain)，动态优化产品目录，提高营收
+
+![alt text](image-22.png)
 
 ---
 
@@ -134,3 +162,5 @@ The sandbox verion of your world，应该把 Models 放到一起来看。
 
 ![alt text](image-19.png)
 
+
+**例子-TODO**
