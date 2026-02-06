@@ -121,6 +121,23 @@ Model Comparisons
 
 ![alt text](image-22.png)
 
+**例子-模型相关关联使用（chained）**
+
+* 模型 1：客户需求预测模型
+  * 输入 - 原材料订单 的 price 属性
+  * 输入 - 物料 的 cost 属性
+  * 输出 - demand（需求量？）
+  * 输出 - 工厂 的 capacity 属性 (产能？)
+  * 输出 - 物料 的 <span style="color:red">inventory</span> 属性 （库存？）
+
+* 模型 2：生产模型
+  * 输入 - <span style="color:red">inventory</span>
+  * 输入 - demand
+  * 输入 - base quality
+  * 输出 - capacity
+  * 输出 - production
+  * 输出 - stock
+
 ---
 
 **Operation**
@@ -163,4 +180,7 @@ The sandbox verion of your world，应该把 Models 放到一起来看。
 ![alt text](image-19.png)
 
 
-**例子-TODO**
+**use cases 例子**
+
+* 如果供应商只交付了 50% 的原材料，对产品的准时交付产生怎样的影响？哪些客户受到的影响最大？
+
