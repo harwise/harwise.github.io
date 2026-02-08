@@ -32,8 +32,14 @@ NotebookLM audio link
 
 Palantir 产品迭代模式：把工程师部署到客户现场，快速解决复杂问题并将实践反哺产品，形成 “现场定制 + 总部抽象” 的闭环。
 
-[Forward Deployed Engineer](./palantir_foundry.md)
+[Forward Deployed Engineer](./palantir_FDE.md)
 
+
+
+# 本体 - 不止于 Palantir
+
+
+[人工智能中的本体论](./palantir_ontology_more.md)
 
 
 # 启发
